@@ -16,6 +16,7 @@ from paginas.compra_Ramos_SPEI import shoppingRamosSPEI
 from paginas.compra_Ramos_TDD_GOBSTORE_LOCAL import shoppingRamosLocally
 from paginas.find_order_details import findOrder
 from paginas.googleAuth import googleOauth
+from paginas.mailAuth import correoauth
 from paginas.proceso_completo_orden import ProcessOrder
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementClickInterceptedException
@@ -25,7 +26,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 #COMENTARIO
 from selenium.webdriver.common.keys import Keys
 import sys
-
+#Para desidentar: CTRL + SHIFT + BRACKET IZQ
 class ClickSendKeys(unittest.TestCase):
     def setUp(self):
         global driver
@@ -34,25 +35,9 @@ class ClickSendKeys(unittest.TestCase):
         print("abriendo la página principal") 
         driver.implicitly_wait(50)
     def testID(self):
-        esperaBoton = WebDriverWait(driver,100).until(EC.element_to_be_clickable((By.XPATH,"/html/body/header/div/div/section/button[2]")))
-        print("Haciendo click en iniciar sesión GOBSTORE")
-        esperaBoton.click()
-        driver.implicitly_wait(3)
-        #Mail AUTH
-        mailAuth = WebDriverWait(driver,10).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="emailLoginForm"]')))
-        if mailAuth is not None:
-            print("Campo para autenticación por mail encontrado,escribiendo email")
-            mailAuth.send_keys("micho@gobstore.mx")
-            mailpwd = driver.find_element_by_xpath('//*[@id="pwdLoginForm"]')
-            if mailpwd is not None:
-                print("Se encontró el campo para password, enviando contraseña...")
-                mailpwd.send_keys("C0business.")
-            boton_ingresar = driver.find_element_by_xpath('//*[@id="btnLoginForm"]')
-            if boton_ingresar is not None:
-                print("Se encontró el botón ingresar, haciendo click")
-                boton_ingresar.click()
-                print("Inicio de sesión exitoso")
-                time.sleep(4)
+        print("Iniciando sesión con correo automáticamente")
+        inicioCCorreo = correoauth(driver)
+        inicioCCorreo.inicioConCorreo()
         n=0
         while n==0:
             print("""¿Que automatizacion quieres correr?
