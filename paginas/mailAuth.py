@@ -9,8 +9,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import ElementNotInteractableException
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
-import msvcrt
 
 class correoauth:
     def __init__(self,driver):
@@ -18,10 +18,12 @@ class correoauth:
         self.driver=driver
     def inicioConCorreo(self):
         while True:
+            global errors
+            errors ={'error':'Tipo de error','Fecha de inicio':time.asctime(),'Duracion en segundos':time.asctime()}
             try:
-                print("Holaaaaaaaaaaaaaaaa")
                 tiempoinicial = time.time()
-                print("La prueba inicia en: ", time.asctime())
+                inicial_asc = time.asctime()
+                print("La prueba inicia en: ",inicial_asc)
                 esperaBoton = WebDriverWait(self.driver,5).until(EC.element_to_be_clickable((By.XPATH,"/html/body/header/div/div/section/button[2]")))
                 print("Haciendo click en iniciar sesión GOBSTORE")
                 esperaBoton.click()
@@ -43,18 +45,62 @@ class correoauth:
                         time.sleep(4)
             except KeyboardInterrupt:
                 print("Salemossss")
+                final = time.time()
+                difference = final-tiempoinicial
+                errors.update({'error':'Interrupción de teclado','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
+                with open("mailAuth.txt","a") as f:
+                    print(errors,file = f)
+                    print('\n', file = f)
                 break
             except (ElementClickInterceptedException) as e:
-                raise ValueError("No se pudo hacer click en un elemento") from e
-                #print("Ocurrio un errors", e)
-
+                #raise ValueError("No se pudo hacer click en un elemento") from e
+                print("No se pudo hacer click en un elemento")
+                final = time.time()
+                difference = final-tiempoinicial
+                errors.update({'error':'Elemento no clickeable','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
+                print(errors,"\n")
+                with open("mailAuth.txt","a") as f:
+                    #print(23*"=",file = f)
+                    print(errors,file = f)
+                    print('\n', file = f)
+            except (TimeoutException) as e:
+                print("Pasó más del tiempo de espera para encontrar un elemento")
+                final = time.time()
+                difference = final-tiempoinicial
+                errors.update({'error':'Tiempo de espera agotado','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
+                print(errors,"\n")
+                with open("mailAuth.txt","a") as f:
+                    #print(23*"=",file = f)
+                    print(errors, file = f)
+                    print('\n', file = f)
+            except (NoSuchElementException) as e:
+                print("No se encontró el elemento")
+                final = time.time()
+                difference = final-tiempoinicial
+                errors.update({'error':'No se encontró un elemento','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
+                print(errors,"\n")
+                with open("mailAuth.txt","a") as f:
+                    #print(23*"=",file = f)
+                    print(errors, file = f)
+                    print('\n', file = f)
             except:
-                print("Ocurrió otro errorrrrr")
-                #raise
+                print("Ocurrió error desconocido de selenium o de plataforma")
+                final = time.time()
+                difference = final-tiempoinicial
+                errors.update({'error':'De plataforma/selenium desconocido','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
+                print(errors,"\n")
+                with open("mailAuth.txt","a") as f:
+                    #print(23*"=",file = f)
+                    print(errors, file = f)
+                    print('\n', file = f)
             else:
                 print (u"\u001b[48;5;"+ "Nada detuvo el script")
                 final = time.time()
-                print("La prueba tomó", final-tiempoinicial, "segundos")
+                print("El tiempo de prueba en segundos fue: ", final-tiempoinicial)
+                with open("mailAuth.txt","a") as f:
+                    #print(23*"=",file = f)
+                    print("Prueba exitosa!! "+ "Tiempo de inicio: ", inicial_asc, " El tiempo en segundos fue:", final-tiempoinicial ,file = f)
+                    print('\n',file = f)
     def tearDown(self):
         driver.quit()
   
