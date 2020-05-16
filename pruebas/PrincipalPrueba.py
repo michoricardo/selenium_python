@@ -1,11 +1,16 @@
+#Imports de testing/selenium
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import ElementClickInterceptedException
+from selenium.common.exceptions import ElementNotInteractableException
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 #Se importan las páginas creadas
 from paginas.agregar_domicilio_mty import domicilioMTY
 from paginas.agregar_domicilio_cdmx import domicilioCDMX
@@ -18,14 +23,9 @@ from paginas.find_order_details import findOrder
 from paginas.googleAuth import googleOauth
 from paginas.mailAuth import correoauth
 from paginas.proceso_completo_orden import ProcessOrder
-from selenium.common.exceptions import NoSuchElementException
-from selenium.common.exceptions import ElementClickInterceptedException
-from selenium.common.exceptions import ElementNotInteractableException
-
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-#COMENTARIO
-from selenium.webdriver.common.keys import Keys
+#Imports comunes python
 import sys
+import time
 #Para desidentar: CTRL + SHIFT + BRACKET IZQ
 class ClickSendKeys(unittest.TestCase):
     def setUp(self):
