@@ -24,6 +24,7 @@ from paginas.find_order_details import findOrder
 from paginas.googleAuth import googleOauth
 from paginas.mailAuth import correoauth
 from paginas.proceso_completo_orden import ProcessOrder
+from paginas.genera_reporte import reportGenerator
 #Imports comunes python
 import sys
 import time
@@ -37,8 +38,8 @@ class ClickSendKeys(unittest.TestCase):
         driver.implicitly_wait(50)
     def testID(self):
         print("Iniciando sesión con correo automáticamente")
-        inicioCCorreo = correoauth(driver)
-        inicioCCorreo.inicioConCorreo()
+        #inicioCCorreo = correoauth(driver)
+        #inicioCCorreo.inicioConCorreo()
         n=0
         while n==0:
             print("""¿Que automatizacion quieres correr?
@@ -53,7 +54,8 @@ class ClickSendKeys(unittest.TestCase):
             8.-Comprar unos chicharroncitos Ramos con TDD recogiendo en GOBSTORE MTY
             9.-Encontrar una orden
             10.-Hacer el proceso de una orden en producción (no canceladas)
-            11.-Salir
+            11.-Generar reporte rápido
+            12.-Salir
                     """)
             opcion = input()
             if opcion == "1":
@@ -114,7 +116,11 @@ class ClickSendKeys(unittest.TestCase):
                 print("Hacer el proceso de una orden en producción no canceladas")
                 orderProduction = ProcessOrder(driver)
                 orderProduction.OrdenDeProceso()
-            elif opcion =="11":
+            elif opcion == "11":
+                print("Generar reporte rápido")
+                textReport = reportGenerator(driver)
+                textReport.generandoReporte()            
+            elif opcion =="12":
                 print("Nos vemos pronto")
                 despedida = ClickSendKeys()
                 despedida.tearDown()

@@ -70,7 +70,6 @@ class correoauth:
                 errors.update({'error':'Tiempo de espera agotado','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
                 print(errors,"\n")
                 with open("mailAuth.txt","a") as f:
-                    #print(23*"=",file = f)
                     print(errors, file = f)
                     print('\n', file = f)
             except (NoSuchElementException) as e:
@@ -80,7 +79,6 @@ class correoauth:
                 errors.update({'error':'No se encontró un elemento','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
                 print(errors,"\n")
                 with open("mailAuth.txt","a") as f:
-                    #print(23*"=",file = f)
                     print(errors, file = f)
                     print('\n', file = f)
             except:
@@ -90,11 +88,10 @@ class correoauth:
                 errors.update({'error':'De plataforma/selenium desconocido','Fecha de inicio':inicial_asc,'Duracion en segundos':difference})
                 print(errors,"\n")
                 with open("mailAuth.txt","a") as f:
-                    #print(23*"=",file = f)
                     print(errors, file = f)
                     print('\n', file = f)
             else:
-                print (u"\u001b[48;5;"+ "Nada detuvo el script")
+                print ("Nada detuvo el script")
                 final = time.time()
                 print("El tiempo de prueba en segundos fue: ", final-tiempoinicial)
                 with open("mailAuth.txt","a") as f:
