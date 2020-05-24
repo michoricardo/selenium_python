@@ -38,8 +38,8 @@ class ClickSendKeys(unittest.TestCase):
         driver.implicitly_wait(50)
     def testID(self):
         print("Iniciando sesión con correo automáticamente")
-        #inicioCCorreo = correoauth(driver)
-        #inicioCCorreo.inicioConCorreo()
+        inicioCCorreo = correoauth(driver)
+        inicioCCorreo.inicioConCorreo()
         n=0
         while n==0:
             print("""¿Que automatizacion quieres correr?
@@ -124,6 +124,7 @@ class ClickSendKeys(unittest.TestCase):
                 print("Nos vemos pronto")
                 despedida = ClickSendKeys()
                 despedida.tearDown()
+                n = 1
             else:
                 print("opcion invaida")
     def tearDown(self):

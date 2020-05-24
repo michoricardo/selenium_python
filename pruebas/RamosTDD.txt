@@ -1,0 +1,45 @@
+{'error': 'De plataforma/selenium desconocido', 'Fecha de inicio': 'Mon May 18 23:46:44 2020', 'Duracion en segundos': 59.65019512176514}
+
+
+{'error': 'De plataforma/selenium desconocido', 'Fecha de inicio': 'Mon May 18 23:47:44 2020', 'Duracion en segundos': 41.46287655830383}
+
+
+{'error': 'De plataforma/selenium desconocido', 'Fecha de inicio': 'Mon May 18 23:48:26 2020', 'Duracion en segundos': 41.123260259628296}
+
+
+{'error': 'De plataforma/selenium desconocido', 'Fecha de inicio': 'Mon May 18 23:49:07 2020', 'Duracion en segundos': 40.67412805557251}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:49:48 2020', 'Duracion en segundos': 34.58052372932434}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:51:22 2020', 'Duracion en segundos': 9.544321298599243}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:51:32 2020', 'Duracion en segundos': 9.147283792495728}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:51:41 2020', 'Duracion en segundos': 9.112064361572266}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:51:50 2020', 'Duracion en segundos': 2.370635747909546}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:56:27 2020', 'Duracion en segundos': 9.764239072799683}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:56:37 2020', 'Duracion en segundos': 9.216901540756226}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:56:46 2020', 'Duracion en segundos': 9.223830938339233}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:56:55 2020', 'Duracion en segundos': 8.912334203720093}
+
+
+{'error': 'No se encontró un elemento', 'Fecha de inicio': 'Mon May 18 23:57:04 2020', 'Duracion en segundos': 10.849819898605347}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:57:15 2020', 'Duracion en segundos': 5.700624465942383}
+
+

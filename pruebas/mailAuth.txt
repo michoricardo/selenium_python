@@ -1,46 +1,87 @@
-exitosa!!
-Prueba exitosa!! Tiempo de inicio:  Sat May 16 18:23:50 2020  El tiempo en segundos fue: 6.018889665603638
+Prueba exitosa!! Tiempo de inicio:  Mon May 18 07:38:50 2020  El tiempo en segundos fue: 6.7348127365112305
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:23:56 2020', 'Duracion en segundos': 5.20090389251709}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:38:56 2020', 'Duracion en segundos': 5.302104473114014}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:01 2020', 'Duracion en segundos': 5.2288079261779785}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:02 2020', 'Duracion en segundos': 5.198939800262451}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:07 2020', 'Duracion en segundos': 5.280660390853882}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:07 2020', 'Duracion en segundos': 5.299757719039917}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:12 2020', 'Duracion en segundos': 5.280558109283447}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:12 2020', 'Duracion en segundos': 5.215168714523315}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:17 2020', 'Duracion en segundos': 5.177955389022827}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:18 2020', 'Duracion en segundos': 5.5912792682647705}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:23 2020', 'Duracion en segundos': 5.278555393218994}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:23 2020', 'Duracion en segundos': 5.413628339767456}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:28 2020', 'Duracion en segundos': 5.2697930335998535}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:29 2020', 'Duracion en segundos': 5.624621868133545}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:33 2020', 'Duracion en segundos': 5.322129487991333}
+Prueba exitosa!! Tiempo de inicio:  Mon May 18 07:39:35 2020  El tiempo en segundos fue: 5.473216533660889
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:39 2020', 'Duracion en segundos': 5.313519239425659}
+Prueba exitosa!! Tiempo de inicio:  Mon May 18 07:39:40 2020  El tiempo en segundos fue: 10.228168249130249
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:24:44 2020', 'Duracion en segundos': 5.34135103225708}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:50 2020', 'Duracion en segundos': 5.096853017807007}
 
 
-Prueba exitosa!! Tiempo de inicio:  Sat May 16 18:36:37 2020  El tiempo en segundos fue: 6.275134563446045
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:39:56 2020', 'Duracion en segundos': 5.251929044723511}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:36:45 2020', 'Duracion en segundos': 5.172474384307861}
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 07:40:01 2020', 'Duracion en segundos': 5.399567604064941}
 
 
-{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Sat May 16 18:36:50 2020', 'Duracion en segundos': 5.17104434967041}
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 07:40:06 2020', 'Duracion en segundos': 5.444839954376221}
 
 
-{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Sat May 16 18:36:55 2020', 'Duracion en segundos': 4.746878147125244}
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:25:30 2020', 'Duracion en segundos': 17.839563131332397}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:30:55 2020', 'Duracion en segundos': 9.03313684463501}
+
+
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 23:39:57 2020', 'Duracion en segundos': 5.1666529178619385}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:40:02 2020', 'Duracion en segundos': 8.46461820602417}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:43:32 2020', 'Duracion en segundos': 9.50101637840271}
+
+
+Prueba exitosa!! Tiempo de inicio:  Mon May 18 23:46:29 2020  El tiempo en segundos fue: 9.422849655151367
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:46:38 2020', 'Duracion en segundos': 4.175124406814575}
+
+
+Prueba exitosa!! Tiempo de inicio:  Mon May 18 23:51:10 2020  El tiempo en segundos fue: 8.033164739608765
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:51:19 2020', 'Duracion en segundos': 1.7834463119506836}
+
+
+Prueba exitosa!! Tiempo de inicio:  Mon May 18 23:55:58 2020  El tiempo en segundos fue: 9.973896026611328
+
+
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 23:56:08 2020', 'Duracion en segundos': 5.323256015777588}
+
+
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 23:56:13 2020', 'Duracion en segundos': 5.209502220153809}
+
+
+{'error': 'Tiempo de espera agotado', 'Fecha de inicio': 'Mon May 18 23:56:18 2020', 'Duracion en segundos': 5.217393398284912}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Mon May 18 23:56:24 2020', 'Duracion en segundos': 1.1779468059539795}
+
+
+{'error': 'Interrupción de teclado', 'Fecha de inicio': 'Thu May 21 12:07:54 2020', 'Duracion en segundos': 8.613823890686035}
 
 
