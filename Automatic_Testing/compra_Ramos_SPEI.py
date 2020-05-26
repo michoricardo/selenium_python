@@ -12,7 +12,7 @@ from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import TimeoutException
 import os
 
-class shoppingRamosTDDTDC(unittest.TestCase):
+class shoppingRamosSPEI(unittest.TestCase):
     """def __init__(self,driver):
         
         self.driver=driver"""
@@ -96,14 +96,22 @@ class shoppingRamosTDDTDC(unittest.TestCase):
         cambio_pagina =driver.get("https://gobstore-qa.firebaseapp.com/carnesramos/checkout")
         print("Llendo a checkout")
         print("<br>")
-        time.sleep(2)
-        btn_TDD_TDC = driver.find_element_by_xpath('//*[@id="paymentTypeSelector"]/li[1]/a')
-        if btn_TDD_TDC is not None:
-            print("Eligiendo metodo de pago")
+        time.sleep(5)
+        btn_SPEI = driver.find_element_by_xpath('//*[@id="paymentTypeSelector"]/li[3]/a')
+        if btn_SPEI is not None:
+            print("Eligiendo metodo de pago OXXO")
             print("<br>")
-            btn_TDD_TDC.click()
+            btn_SPEI.click()
             driver.implicitly_wait(10)
             time.sleep(8)
+        driver.execute_script("window.scrollTo(0,400)")
+        time.sleep(3)
+        disclaimerCheck = driver.find_element_by_xpath('//*[@id="paymentTypeAgreementMessageLabel"]')
+        if disclaimerCheck is not None:
+            print("Checkbox disclaimer encontrado")
+            print("<br>")
+            time.sleep(2)
+            disclaimerCheck.click()
         driver.execute_script("window.scrollTo(0,1200)")
         datepicker = driver.find_element_by_xpath('//*[@id="inputDate"]')
         if datepicker is not None:
