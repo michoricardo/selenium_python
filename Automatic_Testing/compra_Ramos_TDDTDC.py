@@ -10,6 +10,8 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.keys import Keys
+from datetime import date
 import os
 
 class shoppingRamosTDDTDC(unittest.TestCase):
@@ -65,7 +67,8 @@ class shoppingRamosTDDTDC(unittest.TestCase):
             print("No tenias que poner CP porque ya habías comprado :)")
             print("<br>")
         time.sleep(3)
-        btn_chicharron = driver.find_element_by_xpath('//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')
+        #btn_chicharron = driver.find_element_by_xpath('//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')
+        btn_chicharron = WebDriverWait(driver,40).until(EC.presence_of_element_located((By.XPATH,'//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')))
         if btn_chicharron is not None:
             print("Clickeando imagen de chicharron para agregar a cart")
             print("<br>")
@@ -79,20 +82,6 @@ class shoppingRamosTDDTDC(unittest.TestCase):
             btn_addToCart.click()
             driver.implicitly_wait(10)
             time.sleep(2)
-        """
-        btn_checkCart = driver.find_element_by_xpath('/html/body/header/div/div/section/button[3]/span')
-        if btn_checkCart is not None:
-            print("Haciendo click para consultar carrito")
-            print("<br>")
-            btn_checkCart.click()
-            driver.implicitly_wait(10)
-            time.sleep(8)
-        btn_proceedCheckout = driver.find_element_by_id("proceedToCheckout")
-        if btn_proceedCheckout is not None:
-            print("Haciendo click para proceder a checkout")
-            btn_proceedCheckout.click()
-            driver.implicitly_wait(10)
-            time.sleep(8)"""
         cambio_pagina =driver.get("https://gobstore-qa.firebaseapp.com/carnesramos/checkout")
         print("Llendo a checkout")
         print("<br>")
@@ -105,6 +94,7 @@ class shoppingRamosTDDTDC(unittest.TestCase):
             driver.implicitly_wait(10)
             time.sleep(8)
         driver.execute_script("window.scrollTo(0,1200)")
+        #MANEJO DE DATEPICKER
         datepicker = driver.find_element_by_xpath('//*[@id="inputDate"]')
         if datepicker is not None:
             print("Date picker encontrado")
@@ -112,8 +102,25 @@ class shoppingRamosTDDTDC(unittest.TestCase):
             time.sleep(2)
             actions= ActionChains(driver)
             actions.move_to_element(datepicker).click().perform()
-            print("Eligiendo fecha default")
+            time.sleep(3)
             print("<br>")
+            print("<br>")
+            tabla = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody')
+            if tabla is not None:
+                print("Se encontro la tabla")
+                activo = tabla.find_element_by_css_selector("#deliveryDatetimepicker td.day:not(.disabled)")
+                if activo is not None:
+                    print("se encontro activo en tabla")
+                    print("<br>")
+                    print("valor: ",activo.get_attribute("value"))
+                    print("<br>")
+                    print("texto: ",activo.text)
+                    print("<br>")
+                    activo.click()
+                    print("eligiendo dia activo")
+            time.sleep(1)
+            print("<br>")
+            #TERMINA MANEJO DE DATEPICKER
         falto_algo=driver.find_element_by_xpath('//*[@id="extraComments"]').send_keys("No faltó nada")
         time.sleep(1)
         ordenar_btn=driver.find_element_by_xpath('//*[@id="handlePlaceOrder"]')
@@ -121,6 +128,10 @@ class shoppingRamosTDDTDC(unittest.TestCase):
             print("Ordenando ...")
             print("<br>")
             ordenar_btn.click()
+            time.sleep(5)
+            alert_obj = driver.switch_to.alert
+            alert_obj.accept()
+            print("alerta aceptada")
             time.sleep(20)
         urlcompra = driver.current_url
         print("llego aqui")
@@ -130,7 +141,6 @@ class shoppingRamosTDDTDC(unittest.TestCase):
                 print("<br>")
                 print(urlcompra)
                 print("<br>")
-                #<a href="quien-soy.html">Quién soy</a>
                 print("<a href=")
                 print(urlcompra)
                 print(">")

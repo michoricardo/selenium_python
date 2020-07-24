@@ -94,6 +94,7 @@ class shoppingRamosInstitucional(unittest.TestCase):
         driver.execute_script("window.scrollTo(0,400)")
         time.sleep(3)
         driver.execute_script("window.scrollTo(0,1200)")
+        #MANEJO DE DATEPICKER
         datepicker = driver.find_element_by_xpath('//*[@id="inputDate"]')
         if datepicker is not None:
             print("Date picker encontrado")
@@ -101,8 +102,25 @@ class shoppingRamosInstitucional(unittest.TestCase):
             time.sleep(2)
             actions= ActionChains(driver)
             actions.move_to_element(datepicker).click().perform()
-            print("Eligiendo fecha default")
+            time.sleep(3)
             print("<br>")
+            print("<br>")
+            tabla = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody')
+            if tabla is not None:
+                print("Se encontro la tabla")
+                activo = tabla.find_element_by_css_selector("#deliveryDatetimepicker td.day:not(.disabled)")
+                if activo is not None:
+                    print("se encontro activo en tabla")
+                    print("<br>")
+                    print("valor: ",activo.get_attribute("value"))
+                    print("<br>")
+                    print("texto: ",activo.text)
+                    print("<br>")
+                    activo.click()
+                    print("eligiendo dia activo")
+            time.sleep(1)
+            print("<br>")
+            #TERMINA MANEJO DE DATEPICKER
         falto_algo=driver.find_element_by_xpath('//*[@id="extraComments"]').send_keys("No faltó nada")
         time.sleep(1)
         ordenar_btn=driver.find_element_by_xpath('//*[@id="handlePlaceOrder"]')
@@ -110,6 +128,10 @@ class shoppingRamosInstitucional(unittest.TestCase):
             print("Ordenando ...")
             print("<br>")
             ordenar_btn.click()
+            time.sleep(5)
+            alert_obj = driver.switch_to.alert
+            alert_obj.accept()
+            print("alerta aceptada")
             time.sleep(20)
         urlcompra = driver.current_url
         print("llego aqui")

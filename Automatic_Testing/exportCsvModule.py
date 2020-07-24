@@ -94,7 +94,7 @@ class csvModule(unittest.TestCase):
                         print('se encontro un archivo csv')
                         print('<br>')
                         time.sleep(1)
-                        with open('C:/Users/ricar/Downloads/orders.csv') as csvfile:
+                        with open('C:/Users/ricar/Downloads/orders.csv',encoding="utf8") as csvfile:
                             readCSV = csv.reader(csvfile, delimiter=',')
                             folio_nuevo = None
                             for row in readCSV:
