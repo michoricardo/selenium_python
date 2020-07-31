@@ -1,0 +1,616 @@
+1596210536094	geckodriver	INFO	Listening on 127.0.0.1:49960
+1596210539115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofiletrV6tF"
+1596210539861	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1596210539992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1596210539993	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1596210539993	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1596210539993	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1596210543288	Marionette	INFO	Listening on port 49968
+1596210543652	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+1596210604164	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1596210604442	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1596210604592	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1596210610558	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+openRemotePrompt@resource://gre/modules/Prompter.jsm:619:17
+openPrompt@resource://gre/modules/Prompter.jsm:663:25
+confirm@resource://gre/modules/Prompter.jsm:771:10
+checkOrderParams@https://gobstore-qa.firebaseapp.com/assets/js/myaccount/CheckoutControllerClass.js:820:33
+@https://gobstore-qa.firebaseapp.com/assets/js/myaccount/checkoutController.js:291:28
+dispatch@https://gobstore-qa.firebaseapp.com/assets/js/core/jquery.min.js:3:10316
+add/q.handle@https://gobstore-qa.firebaseapp.com/assets/js/core/jquery.min.js:3:8343
+event.synthesizeMouseAtPoint@chrome://marionette/content/event.js:213:14
+webdriverClickElement@chrome://marionette/content/interaction.js:183:11
+1596210635172	Marionette	INFO	Stopped listening on port 49968
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596215530458	geckodriver	INFO	Listening on 127.0.0.1:51241
+1596215533719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileeGA85F"
+1596215771937	geckodriver	INFO	Listening on 127.0.0.1:51479
+1596215774969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileeJY3rN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596215779363	Marionette	INFO	Listening on port 51489
+1596215779659	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596215818953	Marionette	INFO	Stopped listening on port 51489
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596216888743	geckodriver	INFO	Listening on 127.0.0.1:52741
+1596216891702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilelvqnH7"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596216896082	Marionette	INFO	Listening on port 52752
+1596216896138	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596216937666	Marionette	INFO	Stopped listening on port 52752
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596217106705	geckodriver	INFO	Listening on 127.0.0.1:53036
+1596217109666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileeBaOgr"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596217113514	Marionette	INFO	Listening on port 53046
+1596217115798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596217145910	Marionette	INFO	Stopped listening on port 53046
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596218770926	geckodriver	INFO	Listening on 127.0.0.1:53435
+1596218773878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilemIsfqj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+1596218778207	Marionette	INFO	Listening on port 53446
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+[Parent 1592, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+console.log: "RemoteSettingsWorker error: Error: Can't impor1596218787383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilefdBe6j"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596218792690	Marionette	INFO	Listening on port 53491
+1596218792930	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596218827645	Marionette	INFO	Stopped listening on port 53491
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+xedDB transaction during shutdown
+1596218785652	Marionette	INFO	Stopped listening on port 53446
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596221823827	geckodriver	INFO	Listening on 127.0.0.1:56158
+1596221826857	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile5x2qBI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596221831165	Marionette	INFO	Listening on port 56169
+1596221831427	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+1596221863854	Marionette	INFO	Stopped listening on port 56169
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596221962285	geckodriver	INFO	Listening on 127.0.0.1:56352
+1596221965397	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile9ZahfB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596221969299	Marionette	INFO	Listening on port 56362
+1596221969741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+1596221997186	Marionette	INFO	Stopped listening on port 56362
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596222162692	geckodriver	INFO	Listening on 127.0.0.1:56597
+1596222165720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileIa2KZv"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596222168971	Marionette	INFO	Listening on port 56607
+1596222169072	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596222190978	Marionette	INFO	Stopped listening on port 56607
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596222270951	geckodriver	INFO	Listening on 127.0.0.1:56773
+1596222273977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile2PPeKa"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596222277127	Marionette	INFO	Listening on port 56784
+1596222277204	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596222302360	Marionette	INFO	Stopped listening on port 56784
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596222438913	geckodriver	INFO	Listening on 127.0.0.1:57012
+1596222442057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileA2U9UF"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596222445759	Marionette	INFO	Listening on port 57023
+1596222445916	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596222472825	Marionette	INFO	Stopped listening on port 57023
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596222770760	geckodriver	INFO	Listening on 127.0.0.1:57367
+1596222773791	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilezgGjZ2"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596222777391	Marionette	INFO	Listening on port 57377
+1596222777690	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596222802044	Marionette	INFO	Stopped listening on port 57377
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596222983946	geckodriver	INFO	Listening on 127.0.0.1:57629
+1596222987003	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile7ujNvp"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596222990329	Marionette	INFO	Listening on port 57640
+1596222990436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596223020934	Marionette	INFO	Stopped listening on port 57640
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596223165121	geckodriver	INFO	Listening on 127.0.0.1:57867
+1596223168139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilecfhxDT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596223171396	Marionette	INFO	Listening on port 57877
+1596223171488	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596223198994	Marionette	INFO	Stopped listening on port 57877
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596223294104	geckodriver	INFO	Listening on 127.0.0.1:58061
+1596223297113	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileH4byBn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596223300793	Marionette	INFO	Listening on port 58071
+1596223301006	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596223328316	Marionette	INFO	Stopped listening on port 58071
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596223408433	geckodriver	INFO	Listening on 127.0.0.1:58232
+1596223411445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileA0Bf7E"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596223414446	Marionette	INFO	Listening on port 58243
+1596223414724	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596223442587	Marionette	INFO	Stopped listening on port 58243
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596223541441	geckodriver	INFO	Listening on 127.0.0.1:58432
+1596223544469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilernIQTP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596223547454	Marionette	INFO	Listening on port 58443
+1596223547711	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596223581387	Marionette	INFO	Stopped listening on port 58443
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596223738242	geckodriver	INFO	Listening on 127.0.0.1:58695
+1596223741280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilenL8IM1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596223744378	Marionette	INFO	Listening on port 58706
+1596223744620	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596223770765	Marionette	INFO	Stopped listening on port 58706
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596223944328	geckodriver	INFO	Listening on 127.0.0.1:58952
+1596223947373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileTMUWQS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596223951054	Marionette	INFO	Listening on port 58963
+1596223951250	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596223983538	Marionette	INFO	Stopped listening on port 58963
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596231469957	geckodriver	INFO	Listening on 127.0.0.1:60529
+1596231473045	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileDHLB3K"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596231486788	Marionette	INFO	Listening on port 60539
+1596231487187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596231613533	Marionette	INFO	Stopped listening on port 60539
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596232576969	geckodriver	INFO	Listening on 127.0.0.1:61637
+1596232579844	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilegAemV6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596232584690	Marionette	INFO	Listening on port 61648
+1596232584903	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596232622918	Marionette	INFO	Stopped listening on port 61648
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596232652536	geckodriver	INFO	Listening on 127.0.0.1:61787
+1596232655443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileNjDHZB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596232659491	Marionette	INFO	Listening on port 61797
+1596232659848	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596232688598	Marionette	INFO	Stopped listening on port 61797
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596232794998	geckodriver	INFO	Listening on 127.0.0.1:62020
+1596232797951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile7VpIS6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596232804457	Marionette	INFO	Listening on port 62030
+1596232804624	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596232841573	Marionette	INFO	Stopped listening on port 62030
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596232870773	geckodriver	INFO	Listening on 127.0.0.1:62178
+1596232873724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileyWkmOQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596232879998	Marionette	INFO	Listening on port 62190
+1596232880400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596232914531	Marionette	INFO	Stopped listening on port 62190
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596233063189	geckodriver	INFO	Listening on 127.0.0.1:62431
+1596233066095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileG9pXCY"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596233070586	Marionette	INFO	Listening on port 62441
+1596233070666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596233099931	Marionette	INFO	Stopped listening on port 62441
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596233667140	geckodriver	INFO	Listening on 127.0.0.1:63005
+1596233670124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilerGL7dk"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596233674266	Marionette	INFO	Listening on port 63016
+1596233674555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596233703019	Marionette	INFO	Stopped listening on port 63016
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596233798211	geckodriver	INFO	Listening on 127.0.0.1:63198
+1596233801258	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileQIuszK"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596233805071	Marionette	INFO	Listening on port 63209
+1596233805165	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596233837503	Marionette	INFO	Stopped listening on port 63209
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596234717528	geckodriver	INFO	Listening on 127.0.0.1:64020
+1596234728687	geckodriver	INFO	Listening on 127.0.0.1:64037
+1596234731705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileQReGtG"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596234736358	Marionette	INFO	Listening on port 64047
+1596234736739	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596234765231	Marionette	INFO	Stopped listening on port 64047
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596235161796	geckodriver	INFO	Listening on 127.0.0.1:64466
+1596235164750	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileGgaGgB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596235168727	Marionette	INFO	Listening on port 64476
+1596235169155	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596235196762	Marionette	INFO	Stopped listening on port 64476
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596235399165	geckodriver	INFO	Listening on 127.0.0.1:64806
+1596235413087	geckodriver	INFO	Listening on 127.0.0.1:64827
+1596235416074	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileYOa0Fh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596235421396	Marionette	INFO	Listening on port 64838
+1596235421590	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596235458778	Marionette	INFO	Stopped listening on port 64838
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596235602932	geckodriver	INFO	Listening on 127.0.0.1:65079
+1596235605920	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile4O0BFM"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596235609556	Marionette	INFO	Listening on port 65090
+1596235609744	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596235722739	Marionette	INFO	Stopped listening on port 65090
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596235809456	geckodriver	INFO	Listening on 127.0.0.1:65346
+1596235812450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileCDzMLQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596235815965	Marionette	INFO	Listening on port 65357
+1596235816277	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596235850910	Marionette	INFO	Stopped listening on port 65357
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596236177951	geckodriver	INFO	Listening on 127.0.0.1:49365
+1596236181060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile7PASnO"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596236185646	Marionette	INFO	Listening on port 49376
+1596236186088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596236220465	Marionette	INFO	Stopped listening on port 49376
+[Parent 8184, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596236413033	geckodriver	INFO	Listening on 127.0.0.1:49642
+1596236416064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileph0KIm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596236419873	Marionette	INFO	Listening on port 49652
+1596236419980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596236454904	Marionette	INFO	Stopped listening on port 49652
+
+###!!! [Child][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596236605472	geckodriver	INFO	Listening on 127.0.0.1:49881
+1596236608459	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileyRXo2Z"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596236612134	Marionette	INFO	Listening on port 49892
+1596236612340	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596236644684	Marionette	INFO	Stopped listening on port 49892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596237067326	geckodriver	INFO	Listening on 127.0.0.1:50333
+1596237070358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileHiRgm8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[Parent 2116, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1596237109075	Marionette	INFO	Listening on port 50343
+1596237109776	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596237149329	Marionette	INFO	Stopped listening on port 50343
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x5F0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1596237226599	geckodriver	INFO	Listening on 127.0.0.1:50590
+1596237229556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilerW42zL"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596237233895	Marionette	INFO	Listening on port 50601
+1596237233957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/modules/inventory.module.js, line 20: unreachable code after return statement
+JavaScript warning: https://gobstore-qa.firebaseapp.com/assets/js/profile/profileDashboard.js, line 181: unreachable code after return statement
+1596237261722	Marionette	INFO	Stopped listening on port 50601
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

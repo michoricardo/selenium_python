@@ -18,7 +18,8 @@ class shoppingRamosOXXO(unittest.TestCase):
         self.driver=driver"""
     def setUp(self):
         global driver
-        driver = webdriver.Firefox(executable_path=r"C:\Users\ricar\AppData\Local\Programs\Python\Python38\geckodriver.exe")
+        #driver = webdriver.Firefox(executable_path=r"C:\Users\ricar\AppData\Local\Programs\Python\Python38\geckodriver.exe")
+        driver = webdriver.Firefox(executable_path=r"C:\Users\DELL\Documents\Scripts de python\selenium_python\geckodriver.exe")
         driver.get("https://gobstore-qa.firebaseapp.com/")
         esperaBoton = WebDriverWait(driver,5).until(EC.element_to_be_clickable((By.XPATH,"/html/body/header/div/div/section/button[2]")))
         print("Haciendo click en iniciar sesion GOBSTORE")
