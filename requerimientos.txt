@@ -1,0 +1,6 @@
+Módulos requeridos:
+
+Selenium
+Htmltestrunner
+Beautiful soup (bs4) (desde pip 3)
+html5lib (desde pip 3)

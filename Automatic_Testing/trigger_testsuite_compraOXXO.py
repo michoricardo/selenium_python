@@ -38,6 +38,7 @@ if __name__ == "__main__":
       suite = loader.loadTestsFromTestCase(shoppingRamosOXXO)
       suites_list.append(suite)
    big_suite = unittest.TestSuite(suites_list)
-   runner = HtmlTestRunner.HTMLTestRunner(output='C:/Users/ricar/Documents/GrillOnBox/PythonScripts')
+   runner = HtmlTestRunner.HTMLTestRunner(output='C:/Users/DELL/Documents/Scripts de python/selenium_python\Automatic_Testing/DELLPC')
+   #runner = HtmlTestRunner.HTMLTestRunner(output='C:/Users/ricar/Documents/GrillOnBox/PythonScripts')
    runner.run(big_suite)
 
