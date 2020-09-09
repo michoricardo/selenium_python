@@ -14,7 +14,7 @@ from selenium.common.exceptions import ElementNotInteractableException
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import HtmlTestRunner
-from dashboard_module_test  import dashboardTestClass
+from stockRestore_module_test  import stockRestoreClass
 #Imports comunes python
 import sys
 import time
@@ -26,7 +26,7 @@ if __name__ == "__main__":
    veces=input("Cuantas : ? ")
    vecesnum= int(veces)
    for i in range(0,vecesnum):
-      test_classes_to_run.append(dashboardTestClass)
+      test_classes_to_run.append(stockRestoreClass)
    print(test_classes_to_run)
    print("debería de verse : ", vecesnum, "veces")
    
@@ -35,10 +35,10 @@ if __name__ == "__main__":
    #global suites_list
    suites_list = []
    for test_class in test_classes_to_run:
-      suite = loader.loadTestsFromTestCase(dashboardTestClass)
+      suite = loader.loadTestsFromTestCase(stockRestoreClass)
       suites_list.append(suite)
    big_suite = unittest.TestSuite(suites_list)
    #runner = HtmlTestRunner.HTMLTestRunner(output='C:/Users/ricar/Documents/GrillOnBox/PythonScripts')
-   runner = HtmlTestRunner.HTMLTestRunner(output='C:/Users/DELL/Documents/Scripts de python/selenium_python\Automatic_Testing/DELLPC')
+   runner = HtmlTestRunner.HTMLTestRunner(output='C:/Users/DELL/Documents/Scripts de python/selenium_python\Automatic_Testing')
    runner.run(big_suite)
 

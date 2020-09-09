@@ -90,12 +90,14 @@ class csvModule(unittest.TestCase):
             #wait for download complete
             wait = True
             while(wait==True):
-                for fname in os.listdir('C:/Users/ricar/Downloads'):
+                #for fname in os.listdir('C:/Users/ricar/Downloads'):
+                for fname in os.listdir('C:/Users/Dell/Downloads'):
                     if ('orders') in fname:
                         print('se encontro un archivo csv')
                         print('<br>')
                         time.sleep(1)
-                        with open('C:/Users/ricar/Downloads/orders.csv',encoding="utf8") as csvfile:
+                        #with open('C:/Users/ricar/Downloads/orders.csv',encoding="utf8") as csvfile:
+                        with open('C:/Users/Dell/Downloads/orders.csv',encoding="utf8") as csvfile:
                             readCSV = csv.reader(csvfile, delimiter=',')
                             folio_nuevo = None
                             for row in readCSV:
