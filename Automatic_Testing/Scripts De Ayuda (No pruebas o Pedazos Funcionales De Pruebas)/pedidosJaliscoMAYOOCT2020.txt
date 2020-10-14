@@ -1,0 +1,264 @@
+[x3]Aguja Norteña 
+[x2]Rib eye 
+[x1]Porter House 400g 
+[x2]New York 
+[x2]Chicharrón 
+[x6]Chicharrón 
+[x17]Hamburguesa 4 pz - 190 g c/u 
+[x1]Cowboy 
+[x2]Rib eye 
+[x3]Aguja Norteña 
+[x1]Porter House 800g 
+[x1]Rib eye 
+[x4]Aguja Norteña 
+[x1]Chicharrón 
+[x2]Porter House 400g 
+[x1]Cowboy 
+[x3]Chicharrón 
+[x10]Chicharrón 
+[x4]Chicharrón 
+[x1]New York 
+[x2]Porter House 400g 
+[x3]Aguja Norteña 
+[x1]Rib eye 
+[x1]Hamburguesa 4 pz - 190 g c/u 
+[x4]Chicharrón 
+[x8]Chicharrón 
+[x2]Chicharrón 
+[x8]Aguja Norteña 
+[x5]Rib eye 
+[x4]Chicharrón 
+[x3]Chicharrón 
+[x1]Picaña 
+[x4]Aguja Norteña 
+[x1]Cowboy 
+[x1]Rib eye 
+[x5]Chicharrón 
+[x3]Aguja Norteña 
+[x3]Porter House 400g 
+[x5]Chicharrón 
+[x2]Aguja Norteña 
+[x2]Chicharrón 
+[x1]Arrachera 
+[x2]Chicharrón 
+[x1]Picaña 
+[x2]Rib eye 
+[x1]Hamburguesa 4 pz - 190 g c/u 
+[x3]Aguja Norteña 
+[x1]Chicharrón 
+[x7]Chicharrón 
+[x1]Picaña 
+[x1]Porter House 400g 
+[x2]Aguja Norteña 
+[x2]Rib eye 
+[x1]Chicharrón 
+[x3]Aguja Norteña 
+[x2]Chicharrón 
+[x2]Chicharrón 
+[x5]Rib eye 
+[x4]Hamburguesa 4 pz - 190 g c/u 
+[x2]Chicharrón 
+[x2]Rib eye 
+[x2]Aguja Norteña 
+[x1]Arrachera 
+[x5]Chicharrón 
+[x1]Picaña 
+[x1]Chicharrón 
+[x1]Tomahawk 
+[x2]Porter House 800g 
+[x1]Rib eye 
+[x1]Arrachera 
+[x1]Hamburguesa 4 pz - 190 g c/u 
+[x2]Aguja Norteña 
+[x2]Chicharrón 
+[x1]Picaña 
+[x1]Cowboy 
+[x1]Aguja Norteña 
+[x1]Chicharrón 
+[x5]Chicharrón 
+[x2]Hamburguesa 4 pz - 190 g c/u 
+[x1]Porter House 800g 
+[x1]Cowboy 
+[x4]Rib eye 
+[x2]Hamburguesa 4 pz - 190 g c/u 
+[x1]Picaña 
+[x1]Rib eye 
+[x2]Chicharrón 
+[x1]Tomahawk 
+[x1]Cowboy 
+[x2]Aguja Norteña 
+[x2]Porter House 800g 
+[x1]Porter House 400g 
+[x2]Aguja Norteña 
+[x2]Rib eye 
+[x2]New York 
+[x2]Chicharrón 
+[x2]Chicharrón 
+[x1]Kit Papá Parrillero 
+[x1]Cowboy 
+[x6]Aguja Norteña 
+[x2]Porter House 800g 
+[x2]Chicharrón 
+[x2]Rib eye 
+[x1]Chicharrón 
+[x3]Aguja Norteña 
+[x1]Kit Papá Parrillero 
+[x1]Kit Papá Parrillero 
+[x2]Kit Papá Parrillero 
+[x4]Rib eye 
+[x5]Chicharrón 
+[x10]Aguja Norteña 
+[x2]Chicharrón 
+[x1]Rib eye 
+[x1]Aguja Norteña 
+[x1]New York 
+[x6]Aguja Norteña 
+[x2]Chicharrón 
+[x2]Arrachera 
+[x2]Picaña 
+[x2]Aguja Norteña 
+[x2]New York 
+[x6]Rib eye 
+[x1]Picaña 
+[x1]Porter House 800g 
+[x1]Chicharrón 
+[x6]Chicharrón 
+[x4]Aguja Norteña 
+[x1]Hamburguesa 4 pz - 190 g c/u 
+[x1]Chicharrón 
+[x2]Porter House 800g 
+[x1]Rib eye 
+[x2]Chicharrón 
+[x3]Aguja Norteña 
+[x3]Rib eye 
+[x3]Chicharrón 
+[x1]Chicharrón 
+[x4]Rib eye 
+[x1]Chicharrón 
+[x3]Chicharrón 
+[x2]Rib eye 
+[x1]Porter House 400g 
+[x4]Aguja Norteña 
+[x2]Aguja Norteña 
+[x1]Chicharrón 
+[x3]Porter House 400g 
+[x3]Chicharrón 
+[x3]Chicharrón 
+[x1]New York 
+[x1]Arrachera 
+[x1]Aguja Norteña 
+[x1]Hamburguesa 4 pz - 190 g c/u 
+[x1]Chicharrón 
+[x4]Hamburguesa 4 pz - 190 g c/u 
+[x1]New York 
+[x1]Hamburguesa 4 pz - 190 g c/u 
+[x3]Chicharrón 
+[x5]Rib eye 
+[x1]Chicharrón 
+[x5]Chicharrón 
+[x1]Chicharrón 
+[x2]Cowboy 
+[x1]Picaña 
+[x8]Aguja Norteña 
+[x2]New York 
+[x4]Porter House 400g 
+[x1]Chicharrón 
+[x1]Carne Seca 
+[x1]Arrachera 
+[x1]Chicharrón 
+[x2]Aguja Norteña 
+[x1]New York 
+[x2]Porter House 400g 
+[x4]Paq. Trompo 500 g 
+[x3]Hamburguesa 4 pz - 190 g c/u 
+[x2]Porter House 400g 
+[x2]Chicharrón 
+[x1]Paq. Asado de Puerco 500 g 
+[x10]Aguja Norteña 
+[x3]Paq.Barbacoa 500 g 
+[x1]Tomahawk 
+[x6]New York 
+[x4]Rib eye 
+[x4]Porter House 400g 
+[x1]Arrachera 
+[x6]Hamburguesa 4 pz - 190 g c/u 
+[x5]Carne Seca 
+[x5]Paq.Barbacoa 500 g 
+[x5]Paq. Chicharrón en salsa verde 450 g 
+[x2]Porter House 400g 
+[x1]Cowboy 
+[x4]Aguja Norteña 
+[x2]Chicharrón 
+[x2]Porter House 400g 
+[x1]Rib eye 
+[x3]Paq. Chicharrón en salsa verde 450 g 
+[x2]Paq.Barbacoa 500 g 
+[x2]5 CORTES AGUJA NORTEÑA - 20% DESCUENTO 
+[x3]Chicharrón 
+[x1]Chicharrón 
+[x2]5 CORTES AGUJA NORTEÑA - 20% DESCUENTO 
+[x1]5 CORTES PORTER HOUSE- 20% DESCUENTO 
+[x1]Cowboy 
+[x1]Picaña 
+[x20]Chicharrón 
+[x4]Porter House 400g 
+[x1]Arrachera 
+[x3]New York 
+[x3]Rib eye 
+[x1]Picaña 
+[x2]Tomahawk 
+[x3]Hamburguesa 4 pz - 190 g c/u 
+[x6]Rib eye 
+[x4]Aguja Norteña 
+[x6]New York 
+[x2]Porter House 800g 
+[x4]Aguja Norteña 
+[x1]Porter House 800g 
+[x1]Tomahawk 
+[x2]Paq. Chicharrón en salsa verde 450 g 
+[x1]Porter House 400g 
+[x2]Paq.Barbacoa 500 g 
+[x1]Cowboy 
+[x4]Porter House 400g 
+[x4]Aguja Norteña 
+[x1]Chicharrón 
+[x10]Paq.Barbacoa 500 g 
+[x5]Tomahawk 
+[x10]Paq. Chicharrón en salsa verde 450 g 
+[x2]Paq. Chicharrón en salsa verde 450 g 
+[x1]Paq. Asado de Puerco 500 g 
+[x2]Paq. Trompo 500 g 
+[x2]Paq.Barbacoa 500 g 
+[x10]Rib eye 
+[x8]New York 
+[x8]Porter House 400g 
+[x1]Picaña 
+[x2]Picaña 
+[x10]Porter House 800g 
+[x1]EMPALMES DE CHICARRÓN DE CERDO 
+[x3]New York 
+[x2]Cowboy 
+[x1]Arrachera 
+[x2]Chicharrón 
+[x1]5 CORTES PORTER HOUSE- 20% DESCUENTO 
+[x1]Paq. Trompo 500 g 
+[x1]Paq. Asado de Puerco 500 g 
+[x1]Paq.Barbacoa 500 g 
+[x1]EMPALMES DE CHICARRÓN DE CERDO 
+[x1]CHICHARRÓN EN SALSA MORTIAS 
+[x2]Paq.Barbacoa 500 g 
+[x1]Chicharrón 
+[x1]POLLO EN MOLE DE RANCHO 
+[x2]EMPALMES DE CHICARRÓN DE CERDO 
+[x10]Porter House 400g 
+[x1]Chicharrón 
+[x8]Aguja Norteña 
+[x6]Rib eye 
+[x6]New York 
+[x1]Arrachera 
+[x5]Porter House 400g 
+[x2]Aguja Norteña 
+[x8]New York 
+[x8]Porter House 400g 
+[x1]Picaña 
+[x8]Rib eye 

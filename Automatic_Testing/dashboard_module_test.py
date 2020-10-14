@@ -19,6 +19,15 @@ class dashboardTestClass (unittest.TestCase):
     def setUp(self):
         global driver
         #driver = webdriver.Firefox(executable_path=r"C:\Users\ricar\AppData\Local\Programs\Python\Python38\geckodriver.exe")
+        #Cerrar modal
+        try:
+            esperaModalMolesto = WebDriverWait(driver,5).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="PopupSignupForm_0"]/div[2]/div[1]'))).click()
+            print("Se hizo click en el modal molesto del newsletter")
+            print("<br>")
+        except ElementNotInteractableException as exception:
+            print("No se encontraron modales molestos de newsletter")
+            print("<br>")
+        #Termina manejo de modal
         driver = webdriver.Firefox(executable_path=r"C:\Users\DELL\Documents\Scripts de python\selenium_python\geckodriver.exe")
         driver.get("https://gobstore-qa.firebaseapp.com/")
         esperaBoton = WebDriverWait(driver,5).until(EC.element_to_be_clickable((By.XPATH,"/html/body/header/div/div/section/button[2]")))
