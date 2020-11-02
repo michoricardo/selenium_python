@@ -1,0 +1,3 @@
+http:www.healthzap.co:80:.::.	0	18557	http:www.healthzap.co:80:www.healthzap.co:443::n:1603409043:h2:y:1603407833:n::http://js.dokry.com|n:n:
+http:a.vdo.ai:80:.::.	0	18557	http:a.vdo.ai:80:a.vdo.ai:443::n:1603409041:h2:y:1603407833:n::http://js.dokry.com|n:n:
+http:targeting.vdo.ai:80:.::.	0	18557	http:targeting.vdo.ai:80:targeting.vdo.ai:443::n:1603409042:h2:y:1603407833:n::http://js.dokry.com|n:n:

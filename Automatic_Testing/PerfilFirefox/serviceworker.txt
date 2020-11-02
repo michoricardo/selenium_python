@@ -1,0 +1,11 @@
+8
+
+https://rapid-web-services.webpush.freshchat.com/
+https://rapid-web-services.webpush.freshchat.com/firebase-sw.js
+false
+{980ee3ca-802f-4c58-a2e8-9e3f29f5559e}
+0
+1603408697103302
+1603408697104088
+1603408696104628
+#
