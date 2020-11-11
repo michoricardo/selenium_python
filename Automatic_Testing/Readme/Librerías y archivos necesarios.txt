@@ -1,0 +1,6 @@
+1.-Selenium (pip3 install -U selenium) https://pypi.org/project/selenium/
+2.-Geckodriver de firefox
+3.-Perfil (sin reglas de seguridad firefox)
+4.-Unittest
+5.-HtmlTestRunner (pip3 install html-testRunner) https://github.com/oldani/HtmlTestRunner
+x.-Librería colorama (pip3 install colorama) https://pypi.org/project/colorama/ 

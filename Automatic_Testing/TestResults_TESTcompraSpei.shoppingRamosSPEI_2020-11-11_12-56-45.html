@@ -11,8 +11,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class='attribute'><strong>Start Time: </strong>2020-11-06 12:45:35</p>
-                <p class='attribute'><strong>Duration: </strong>37.46 s</p>
+                <p class='attribute'><strong>Start Time: </strong>2020-11-11 12:56:45</p>
+                <p class='attribute'><strong>Duration: </strong>74.93 s</p>
                 <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
@@ -21,7 +21,7 @@
                 <table class='table table-hover table-responsive'>
                     <thead>
                         <tr>
-                            <th>TESTcompraOxxo.shoppingRamosOXXO</th>
+                            <th>TESTcompraSpei.shoppingRamosSPEI</th>
                             <th>Status</th>
                             <th></th>
                         </tr>
@@ -51,10 +51,24 @@ Inicio de sesion exitoso
 <br>
 Agregando CP
 <br>
-</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
+Clickeando imagen de chicharron para agregar a cart
+<br>
+Haciendo click en Agregar al carrito/ QTY default (1)
+<br>
+Llendo a checkout
+<br>
+Eligiendo metodo de pago OXXO
+<br>
+Checkbox disclaimer encontrado
+<br>
+Date picker encontrado
+<br>
+<br>
+<br>
+</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody
 </p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraOxxo.py", line 41, in test_compraChicharron
-    btn_chicharron = driver.find_element_by_xpath('//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraSpei.py", line 100, in test_compraChicharron
+    tabla = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody')
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
     return self.find_element(by=By.XPATH, value=xpath)
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
@@ -63,14 +77,14 @@ Agregando CP
     self.error_handler.check_response(response)
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody
 
 </p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 37.46 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 74.93 s
                             </td>
                         </tr>
                     </tbody>

@@ -9,301 +9,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:49:07</p>
-                <p class="attribute"><strong>Duration: </strong>40.09 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <table class="table table-hover table-responsive">
-                    <thead>
-                        <tr>
-                            <th>TESTcompraInstitucional.shoppingRamosInstitucional</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="warning">
-                            <td class="col-xs-10">test_compraChicharron</td>
-                            <td class="col-xs-1">
-                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
-                            </td>
-                            <td class="col-xs-1">
-                                <button class="btn btn-default btn-xs" style="">Hide</button>
-                            </td>
-                        </tr>
-                        <tr style="">
-                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
-<br>
-Haciendo click en iniciar sesion GOBSTORE
-<br>
-Campo para autenticacion por mail encontrado,escribiendo email
-<br>
-Se encontro el campo para password, enviando password...
-<br>
-Se encontro el boton ingresar, haciendo click
-<br>
-Inicio de sesion exitoso
-<br>
-Agregando CP
-<br>
-</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
-</p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraInstitucional.py", line 43, in test_compraChicharron
-    btn_chicharron = driver.find_element_by_xpath('//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
-
-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 40.09 s
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('td').on('click', '.btn', function(e){
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                var $this = $(this);
-                var $nextRow = $this.closest('tr').next('tr');
-                $nextRow.slideToggle("fast");
-                $this.text(function(i, text){
-                    if (text === 'View') {
-                        return 'Hide';
-                    } else {
-                        return 'View';
-                    };
-                });
-            });
-        });
-    </script>
-
-<br>
-
-    <title>Unittest Results</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:45:35</p>
-                <p class="attribute"><strong>Duration: </strong>37.46 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <table class="table table-hover table-responsive">
-                    <thead>
-                        <tr>
-                            <th>TESTcompraOxxo.shoppingRamosOXXO</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="warning">
-                            <td class="col-xs-10">test_compraChicharron</td>
-                            <td class="col-xs-1">
-                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
-                            </td>
-                            <td class="col-xs-1">
-                                <button class="btn btn-default btn-xs" style="">Hide</button>
-                            </td>
-                        </tr>
-                        <tr style="">
-                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
-<br>
-Haciendo click en iniciar sesion GOBSTORE
-<br>
-Campo para autenticacion por mail encontrado,escribiendo email
-<br>
-Se encontro el campo para password, enviando password...
-<br>
-Se encontro el boton ingresar, haciendo click
-<br>
-Inicio de sesion exitoso
-<br>
-Agregando CP
-<br>
-</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
-</p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraOxxo.py", line 41, in test_compraChicharron
-    btn_chicharron = driver.find_element_by_xpath('//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
-    return self.find_element(by=By.XPATH, value=xpath)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
-
-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 37.46 s
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('td').on('click', '.btn', function(e){
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                var $this = $(this);
-                var $nextRow = $this.closest('tr').next('tr');
-                $nextRow.slideToggle("fast");
-                $this.text(function(i, text){
-                    if (text === 'View') {
-                        return 'Hide';
-                    } else {
-                        return 'View';
-                    };
-                });
-            });
-        });
-    </script>
-
-<br>
-
-    <title>Unittest Results</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:46:59</p>
-                <p class="attribute"><strong>Duration: </strong>42.70 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <table class="table table-hover table-responsive">
-                    <thead>
-                        <tr>
-                            <th>TESTcompraSpei.shoppingRamosSPEI</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="warning">
-                            <td class="col-xs-10">test_compraChicharron</td>
-                            <td class="col-xs-1">
-                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
-                            </td>
-                            <td class="col-xs-1">
-                                <button class="btn btn-default btn-xs" style="">Hide</button>
-                            </td>
-                        </tr>
-                        <tr style="">
-                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchWindowException: Message: Browsing context has been discarded
-</p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraSpei.py", line 20, in setUp
-    el.loginFromEmailClass().test_emailLog(driver)
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTemailLogin.py", line 22, in test_emailLog
-    esperaModalMolesto = WebDriverWait(driver,5).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="PopupSignupForm_0"]/div[2]/div[1]'))).click()
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
-    value = method(self._driver)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 297, in __call__
-    element = visibility_of_element_located(self.locator)(driver)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
-    return _element_if_visible(_find_element(driver, self.locator))
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
-    raise e
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
-    return driver.find_element(*by)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
-
-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 42.70 s
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('td').on('click', '.btn', function(e){
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                var $this = $(this);
-                var $nextRow = $this.closest('tr').next('tr');
-                $nextRow.slideToggle("fast");
-                $this.text(function(i, text){
-                    if (text === 'View') {
-                        return 'Hide';
-                    } else {
-                        return 'View';
-                    };
-                });
-            });
-        });
-    </script>
-
-<br>
-
-    <title>Unittest Results</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:48:15</p>
-                <p class="attribute"><strong>Duration: </strong>36.58 s</p>
+                <p class="attribute"><strong>Start Time: </strong>2020-11-11 12:56:45</p>
+                <p class="attribute"><strong>Duration: </strong>74.93 s</p>
                 <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
@@ -342,10 +49,24 @@ Inicio de sesion exitoso
 <br>
 Agregando CP
 <br>
-</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
+Clickeando imagen de chicharron para agregar a cart
+<br>
+Haciendo click en Agregar al carrito/ QTY default (1)
+<br>
+Llendo a checkout
+<br>
+Eligiendo metodo de pago OXXO
+<br>
+Checkbox disclaimer encontrado
+<br>
+Date picker encontrado
+<br>
+<br>
+<br>
+</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody
 </p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraSpei.py", line 41, in test_compraChicharron
-    btn_chicharron = driver.find_element_by_xpath('//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraSpei.py", line 100, in test_compraChicharron
+    tabla = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody')
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
     return self.find_element(by=By.XPATH, value=xpath)
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
@@ -354,14 +75,14 @@ Agregando CP
     self.error_handler.check_response(response)
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody
 
 </p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 36.58 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 74.93 s
                             </td>
                         </tr>
                     </tbody>
@@ -401,8 +122,8 @@ selenium.common.exceptions.NoSuchElementException: Message: Unable to locate ele
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:43:48</p>
-                <p class="attribute"><strong>Duration: </strong>99.09 s</p>
+                <p class="attribute"><strong>Start Time: </strong>2020-11-11 14:22:30</p>
+                <p class="attribute"><strong>Duration: </strong>11.10 s</p>
                 <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
@@ -411,7 +132,7 @@ selenium.common.exceptions.NoSuchElementException: Message: Unable to locate ele
                 <table class="table table-hover table-responsive">
                     <thead>
                         <tr>
-                            <th>TESTcompraTarjeta.shoppingRamosTDDTDC</th>
+                            <th>TESTcompraSpei.shoppingRamosSPEI</th>
                             <th>Status</th>
                             <th></th>
                         </tr>
@@ -427,46 +148,78 @@ selenium.common.exceptions.NoSuchElementException: Message: Unable to locate ele
                             </td>
                         </tr>
                         <tr style="">
-                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
-<br>
-Haciendo click en iniciar sesion GOBSTORE
-<br>
-Campo para autenticacion por mail encontrado,escribiendo email
-<br>
-Se encontro el campo para password, enviando password...
-<br>
-Se encontro el boton ingresar, haciendo click
-<br>
-Inicio de sesion exitoso
-<br>
-Agregando CP
-<br>
-</p><p style="color:maroon;">NoSuchWindowException: Message: Browsing context has been discarded
-</p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraTarjeta.py", line 44, in test_compraChicharron
-    btn_chicharron = WebDriverWait(driver,40).until(EC.presence_of_element_located((By.XPATH,'//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')))
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
-    value = method(self._driver)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 64, in __call__
-    return _find_element(driver, self.locator)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
-    raise e
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
-    return driver.find_element(*by)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">MaxRetryError: HTTPConnectionPool(host='localhost', port=52741): Max retries exceeded with url: /session (Caused by NewConnectionError('<urllib3.connection.httpconnection 0x03e77c50="" at="" object="">: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))</urllib3.connection.httpconnection></p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
 
-</p>
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.httpconnection 0x03e77c50="" at="" object="">: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraSpei.py", line 19, in setUp
+    driver = webdriver.Firefox(executable_path=r"C:\Users\DELL\Documents\Scripts de python\selenium_python\geckodriver.exe")
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 174, in __init__
+    keep_alive=True)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 767, in urlopen
+    **response_kw
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 767, in urlopen
+    **response_kw
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 767, in urlopen
+    **response_kw
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=52741): Max retries exceeded with url: /session (Caused by NewConnectionError('<urllib3.connection.httpconnection 0x03e77c50="" at="" object="">: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+</urllib3.connection.httpconnection></urllib3.connection.httpconnection></p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 99.09 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 11.10 s
                             </td>
                         </tr>
                     </tbody>
@@ -506,216 +259,9 @@ selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has 
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 13:08:34</p>
-                <p class="attribute"><strong>Duration: </strong>57.29 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 1</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <table class="table table-hover table-responsive">
-                    <thead>
-                        <tr>
-                            <th>TESTcreateNewProduct.productCreation</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="success">
-                            <td class="col-xs-10">test_creacionProducto</td>
-                            <td class="col-xs-1">
-                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
-                            </td>
-                            <td class="col-xs-1">
-                                <button class="btn btn-default btn-xs" style="">Hide</button>
-                            </td>
-                        </tr>
-                        <tr style="">
-                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
-<br>
-Haciendo click en iniciar sesion GOBSTORE
-<br>
-Campo para autenticacion por mail encontrado,escribiendo email
-<br>
-Se encontro el campo para password, enviando password...
-<br>
-Se encontro el boton ingresar, haciendo click
-<br>
-Inicio de sesion exitoso
-<br>
-Cookies aceptadas
-Botón de producto nuevo encontrado
-Generando sku random
-JCVJ880LTHJ
-Escribiendo Sku
-Generando nombre random
-Ram-Quail10
-Escribiendo nombre
-Generando categoria random
-yiMosquito
-Escribiendo categoria
-Mínimo: 1
-Máximo: 10
-Se hace click en el selector de secciones
-Se hace click en el valor "default"
-Se hace click en el selector de secciones
-Se hace click en el valor "grillonbox"
-Calculando la descripcion del rango random
-Rhinoceros Frog Wren Gnu Kudu Partridge Sandpiper Gazelle Heron Spider
-La descripción random generada es:  Rhinoceros Frog Wren Gnu Kudu Partridge Sandpiper Gazelle Heron Spider
-Campo para imágenes encontrado
-Se relacionó imagen de pokemon en el input
-Human-Starling0
-Selector para unidades encontrado
-Seleccionando un valor
-Click exitoso
-Guardando...
-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                Total: 1, Pass: 1 -- Duration: 57.29 s
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('td').on('click', '.btn', function(e){
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                var $this = $(this);
-                var $nextRow = $this.closest('tr').next('tr');
-                $nextRow.slideToggle("fast");
-                $this.text(function(i, text){
-                    if (text === 'View') {
-                        return 'Hide';
-                    } else {
-                        return 'View';
-                    };
-                });
-            });
-        });
-    </script>
-
-<br>
-
-    <title>Unittest Results</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:58:00</p>
-                <p class="attribute"><strong>Duration: </strong>35.72 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 1</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <table class="table table-hover table-responsive">
-                    <thead>
-                        <tr>
-                            <th>TESTcsvOrdenes.csvModule</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="success">
-                            <td class="col-xs-10">test_modulocsv</td>
-                            <td class="col-xs-1">
-                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
-                            </td>
-                            <td class="col-xs-1">
-                                <button class="btn btn-default btn-xs" style="">Hide</button>
-                            </td>
-                        </tr>
-                        <tr style="">
-                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
-<br>
-Haciendo click en iniciar sesion GOBSTORE
-<br>
-Campo para autenticacion por mail encontrado,escribiendo email
-<br>
-Se encontro el campo para password, enviando password...
-<br>
-Se encontro el boton ingresar, haciendo click
-<br>
-Inicio de sesion exitoso
-<br>
-Selector para fechas encontrado
-<br>
-Boton enviadas encontrado
-<br>
-Clickeado
-<br>
-Se hizo click para buscar ordenes
-<br>
-si llego al how many
-<br>
-se encontraron 1 ordenes
-<br>
-Se hace click en exportar ordenes
-FIN DE LOS ARCHIVOS ENCONTRADOS
-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                Total: 1, Pass: 1 -- Duration: 35.72 s
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('td').on('click', '.btn', function(e){
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                var $this = $(this);
-                var $nextRow = $this.closest('tr').next('tr');
-                $nextRow.slideToggle("fast");
-                $this.text(function(i, text){
-                    if (text === 'View') {
-                        return 'Hide';
-                    } else {
-                        return 'View';
-                    };
-                });
-            });
-        });
-    </script>
-
-<br>
-
-    <title>Unittest Results</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:58:51</p>
-                <p class="attribute"><strong>Duration: </strong>37.97 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 1</p>
+                <p class="attribute"><strong>Start Time: </strong>2020-11-11 12:56:45</p>
+                <p class="attribute"><strong>Duration: </strong>79.76 s</p>
+                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
         <div class="row">
@@ -729,10 +275,10 @@ FIN DE LOS ARCHIVOS ENCONTRADOS
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="success">
+                        <tr class="warning">
                             <td class="col-xs-10">test_specificDashboard</td>
                             <td class="col-xs-1">
-                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
                             </td>
                             <td class="col-xs-1">
                                 <button class="btn btn-default btn-xs" style="">Hide</button>
@@ -759,75 +305,26 @@ El usuario tiene permisos de profile_owner
 <br>
 Se ha hecho la busqueda de datos de los ultimos 7 dias:
 <br>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-<br>
-<br>
-b'              ._ o o'
-<br>
-b'               \\_`-)|_'
-<br>
-b'           ,""       \\ '
-<br>
-b'    ,"  ## |   \xe0\xb2\xa0 \xe0\xb2\xa0. '
-<br>
-b'     ," ##   ,-\\__    `.'
-<br>
-b'      ,"       /     `--._;)'
-<br>
-b'  ,"     ## /'
-<br>
-b' ,"   ##    /'
-<br>
-<br>
-</p><table style="width:100%">
-<tbody><tr>
-<th>Clientes que hicieron ordenes</th>
-<th>Ordenes locales</th>
- <th>Ordenes nacionales</th>
- <th>Clientes nuevos</th>
- <th>Ingreso</th>
- <th>Comision</th>
- <th>Embalaje</th>
- <th>Ticket Promedio</th>
- </tr>
-<tr>
-<td> 26 </td>
-<td> 19 </td>
-<td> 8 </td>
-<td> ---- </td>
-<td> $34,746.65 </td>
-<td> $4011.85 </td>
-<td> $1360.00 </td>
-<td> $1286.91 </td>
- </tr>
-</tbody></table>
-<br>
-<table style="width:100%">
-<tbody><tr>
-<th style="width:100%">Productos Estrella/TOP 3</th>
- </tr>
-</tbody></table>
-<br>
-<br><table style="width:100%">
-<tbody><tr><th>Primer lugar</th>
-<th>Segundo lugar</th>
-<th>Tercer lugar</th>
+</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="ulTop5Products"]/li[1]/div/h6
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTdashboardCanal.py", line 69, in test_specificDashboard
+    first=driver.find_element_by_xpath('//*[@id="ulTop5Products"]/li[1]/div/h6').text
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="ulTop5Products"]/li[1]/div/h6
 
-</tr><tr>
-<td> EMPALMES DE CHICARRÓN DE CERDO </td>
-<td> AGUJA NORTEÑA </td>
-<td> CHICHARRÓN </td>
-</tr>
-</tbody></table>
-<p></p>
+</p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 1 -- Duration: 37.97 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 79.76 s
                             </td>
                         </tr>
                     </tbody>
@@ -867,436 +364,8 @@ b' ,"   ##    /'
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 13:03:53</p>
-                <p class="attribute"><strong>Duration: </strong>163.38 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 1</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <table class="table table-hover table-responsive">
-                    <thead>
-                        <tr>
-                            <th>TESTdashboardGeneral.generalDashboardTestClass</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="success">
-                            <td class="col-xs-10">test_generalDashboard</td>
-                            <td class="col-xs-1">
-                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
-                            </td>
-                            <td class="col-xs-1">
-                                <button class="btn btn-default btn-xs" style="">Hide</button>
-                            </td>
-                        </tr>
-                        <tr style="">
-                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
-<br>
-Haciendo click en iniciar sesion GOBSTORE
-<br>
-Campo para autenticacion por mail encontrado,escribiendo email
-<br>
-Se encontro el campo para password, enviando password...
-<br>
-Se encontro el boton ingresar, haciendo click
-<br>
-Inicio de sesion exitoso
-<br>
-Para continuar, es necesario tener  role de administrador
-<br>
-El usuario tiene permisos de administrador
-<br>
-las opciones disponibeles son:     
-</p><h2>
-<b>
-Canal:  
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$NaN</td><td>$NaN</td><td>$NaN</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  bearsinthekitchen
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  cabritos
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  cafediamansol
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  cocinandocongeronimo
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  cocoboom
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  corm
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  dayama
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  gobstoreinnovation
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  grillonbox
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>3</td><td>3</td><td>3</td><td>0</td><td>----</td><td>$3991.08</td><td>$160.00</td><td>$0.00</td><td>$0.00</td><td>$3991.08</td><td>$1330.36</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>EDICIÓN SPRW. TAQUITOS DE ASADO DE TIRA Y PANELA CON ATROPELLADO</td><td>EDICIÓN NO. 45: TACOS NORTEÑOS MANEADOS</td><td>COMBO 1: PARRILLERO ALFA</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  laMaizeria
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  matosa
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  michoselenium
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  millerlitemx
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  mipueblomagico
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  playadelamor
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-</h4><h2>
-<b>
-Canal:  todoalgrill
-<b>
-</b></b></h2>
-<b><b><br>
-<h2>
-Se ha hecho la busqueda de datos de los ultimos 7 dias:
-</h2>
-<br>
-<h4>
-<br>
-<b>Se imprimen los valores del dia  30/10/2020
-Hasta el dia  :  06/11/2020
-</b>
-</h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Clientes que hicieron ordenes </th><th> Total de ordenes </th><th> Ordenes locales </th><th> ordenes nacionales </th><th> clientes nuevos </th><th> Ingreso Total </th><th> Ingreso por envio </th><th> comision </th><th> embalaje </th><th> Pago a socio </th><th>Ticket Promedio </th></tr><tr><td>0</td><td>0</td><td>0</td><td>0</td><td>----</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td><td>$0.00</td></tr></tbody></table>
-<h4><b> Productos Estrella TOP 3 </b></h4><h4>
-<table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><th> Primer Lugar </th><th> Segundo Lugar </th><th> Tercer Lugar </th></tr></tbody></table><table style="background-color:#50B7FF; border-style:dashed;"><tbody><tr><td>Sin datos</td><td>Sin datos</td><td>Sin datos</td></tr></tbody></table>
-<p> =========================================================================================================================================</p>
-<p></p>
-                            </h4></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></b></td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                Total: 1, Pass: 1 -- Duration: 163.38 s
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('td').on('click', '.btn', function(e){
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                var $this = $(this);
-                var $nextRow = $this.closest('tr').next('tr');
-                $nextRow.slideToggle("fast");
-                $this.text(function(i, text){
-                    if (text === 'View') {
-                        return 'Hide';
-                    } else {
-                        return 'View';
-                    };
-                });
-            });
-        });
-    </script>
-
-<br>
-
-    <title>Unittest Results</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:53:06</p>
-                <p class="attribute"><strong>Duration: </strong>9.17 s</p>
+                <p class="attribute"><strong>Start Time: </strong>2020-11-11 14:22:30</p>
+                <p class="attribute"><strong>Duration: </strong>5.02 s</p>
                 <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
@@ -1305,14 +374,14 @@ Hasta el dia  :  06/11/2020
                 <table class="table table-hover table-responsive">
                     <thead>
                         <tr>
-                            <th>TESTresurtidoInventario.stockRestoreClass</th>
+                            <th>TESTdashboardCanal.dashboardTestClass</th>
                             <th>Status</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="warning">
-                            <td class="col-xs-10">test_stockRestore</td>
+                            <td class="col-xs-10">test_specificDashboard</td>
                             <td class="col-xs-1">
                                 <span class="label label-warning" style="display:block;width:40px;">Error</span>
                             </td>
@@ -1321,188 +390,75 @@ Hasta el dia  :  06/11/2020
                             </td>
                         </tr>
                         <tr style="">
-                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">NoSuchWindowException: Message: Browsing context has been discarded
-</p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTresurtidoInventario.py", line 20, in setUp
-    el.loginFromEmailClass().test_emailLog(driver)
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTemailLogin.py", line 22, in test_emailLog
-    esperaModalMolesto = WebDriverWait(driver,5).until(EC.element_to_be_clickable((By.XPATH,'//*[@id="PopupSignupForm_0"]/div[2]/div[1]'))).click()
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
-    value = method(self._driver)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 297, in __call__
-    element = visibility_of_element_located(self.locator)(driver)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 128, in __call__
-    return _element_if_visible(_find_element(driver, self.locator))
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 415, in _find_element
-    raise e
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 411, in _find_element
-    return driver.find_element(*by)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
-    'value': value})['value']
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: Browsing context has been discarded
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
 
-</p>
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTdashboardCanal.py", line 19, in setUp
+    driver = webdriver.Firefox(executable_path=r"C:\Users\DELL\Documents\Scripts de python\selenium_python\geckodriver.exe")
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 174, in __init__
+    keep_alive=True)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\packages\six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
+</string></string></p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 9.17 s
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('td').on('click', '.btn', function(e){
-                e.preventDefault();
-                e.stopImmediatePropagation();
-                var $this = $(this);
-                var $nextRow = $this.closest('tr').next('tr');
-                $nextRow.slideToggle("fast");
-                $this.text(function(i, text){
-                    if (text === 'View') {
-                        return 'Hide';
-                    } else {
-                        return 'View';
-                    };
-                });
-            });
-        });
-    </script>
-
-<br>
-
-    <title>Unittest Results</title>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" rel="stylesheet">
-
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="text-capitalize">Unittest Results</h2>
-                <p class="attribute"><strong>Start Time: </strong>2020-11-06 12:54:39</p>
-                <p class="attribute"><strong>Duration: </strong>163.07 s</p>
-                <p class="attribute"><strong>Summary: </strong>Total: 1, Pass: 1</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-10 col-md-10">
-                <table class="table table-hover table-responsive">
-                    <thead>
-                        <tr>
-                            <th>TESTresurtidoInventario.stockRestoreClass</th>
-                            <th>Status</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="success">
-                            <td class="col-xs-10">test_stockRestore</td>
-                            <td class="col-xs-1">
-                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
-                            </td>
-                            <td class="col-xs-1">
-                                <button class="btn btn-default btn-xs" style="">Hide</button>
-                            </td>
-                        </tr>
-                        <tr style="">
-                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
-<br>
-Haciendo click en iniciar sesion GOBSTORE
-<br>
-Campo para autenticacion por mail encontrado,escribiendo email
-<br>
-Se encontro el campo para password, enviando password...
-<br>
-Se encontro el boton ingresar, haciendo click
-<br>
-Inicio de sesion exitoso
-<br>
-Agregando CP
-<br>
-Se entro a la pagina de stock
-<br>
-El usuario tiene permisos de superadmin
-<br>
-Eligiendo operativo de Monterrey
-<br>
-29
-cookies aceptadas
-<br>
-Elemento #1con 5 productos extra en stock
-<br>
-Elemento #2con 5 productos extra en stock
-<br>
-Elemento #3con 5 productos extra en stock
-<br>
-Elemento #4con 5 productos extra en stock
-<br>
-Elemento #5con 5 productos extra en stock
-<br>
-Elemento #6con 5 productos extra en stock
-<br>
-Elemento #7con 5 productos extra en stock
-<br>
-Elemento #8con 5 productos extra en stock
-<br>
-Elemento #9con 5 productos extra en stock
-<br>
-Elemento #10con 5 productos extra en stock
-<br>
-Elemento #11con 5 productos extra en stock
-<br>
-Elemento #12con 5 productos extra en stock
-<br>
-Elemento #13con 5 productos extra en stock
-<br>
-Elemento #14con 5 productos extra en stock
-<br>
-Elemento #15con 5 productos extra en stock
-<br>
-Elemento #16con 5 productos extra en stock
-<br>
-Elemento #17con 5 productos extra en stock
-<br>
-Elemento #18con 5 productos extra en stock
-<br>
-Elemento #19con 5 productos extra en stock
-<br>
-Elemento #20con 5 productos extra en stock
-<br>
-Elemento #21con 5 productos extra en stock
-<br>
-Elemento #22con 5 productos extra en stock
-<br>
-Elemento #23con 5 productos extra en stock
-<br>
-Elemento #24con 5 productos extra en stock
-<br>
-Elemento #25con 5 productos extra en stock
-<br>
-Elemento #26con 5 productos extra en stock
-<br>
-Elemento #27con 5 productos extra en stock
-<br>
-Elemento #28con 5 productos extra en stock
-<br>
-Elemento #29con 5 productos extra en stock
-<br>
-</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                Total: 1, Pass: 1 -- Duration: 163.07 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 5.02 s
                             </td>
                         </tr>
                     </tbody>

@@ -11,9 +11,9 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class='attribute'><strong>Start Time: </strong>2020-11-06 12:58:00</p>
-                <p class='attribute'><strong>Duration: </strong>35.72 s</p>
-                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 1</p>
+                <p class='attribute'><strong>Start Time: </strong>2020-11-11 12:56:45</p>
+                <p class='attribute'><strong>Duration: </strong>79.76 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
         <div class="row">
@@ -21,16 +21,16 @@
                 <table class='table table-hover table-responsive'>
                     <thead>
                         <tr>
-                            <th>TESTcsvOrdenes.csvModule</th>
+                            <th>TESTdashboardCanal.dashboardTestClass</th>
                             <th>Status</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class='success'>
-                            <td class="col-xs-10">test_modulocsv</td>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_specificDashboard</td>
                             <td class="col-xs-1">
-                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
                             </td>
                             <td class="col-xs-1">
                                 <button class="btn btn-default btn-xs">View</button>
@@ -49,26 +49,34 @@ Se encontro el boton ingresar, haciendo click
 <br>
 Inicio de sesion exitoso
 <br>
-Selector para fechas encontrado
+Agregando CP
 <br>
-Boton enviadas encontrado
+Para continuar, es necesario tener  role de profile_owner
 <br>
-Clickeado
+El usuario tiene permisos de profile_owner
 <br>
-Se hizo click para buscar ordenes
+Se ha hecho la busqueda de datos de los ultimos 7 dias:
 <br>
-si llego al how many
-<br>
-se encontraron 1 ordenes
-<br>
-Se hace click en exportar ordenes
-FIN DE LOS ARCHIVOS ENCONTRADOS
+</p><p style="color:maroon;">NoSuchElementException: Message: Unable to locate element: //*[@id="ulTop5Products"]/li[1]/div/h6
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTdashboardCanal.py", line 69, in test_specificDashboard
+    first=driver.find_element_by_xpath('//*[@id="ulTop5Products"]/li[1]/div/h6').text
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //*[@id="ulTop5Products"]/li[1]/div/h6
+
 </p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 1 -- Duration: 35.72 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 79.76 s
                             </td>
                         </tr>
                     </tbody>
