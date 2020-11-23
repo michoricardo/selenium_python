@@ -3,11 +3,17 @@ import unittest
 from unittest import TestLoader,TestSuite,TextTestRunner
 import HtmlTestRunner
 
-#Imports de archivos para correr todos de golpe
-from TESTagregarMetodosPago  import misMetodosPago #Archivo para agregar métodos de pago
+#Imports de archivos para correr todas las pruebas de golpe
+from TESTagregarMetodosPago import misMetodosPago
 from TESTcsvOrdenes import csvModule #Archivo para checar csv de órdenes
 from TESTcompraSpei import shoppingRamosSPEI #archivo para comprar spei
 from TESTdashboardCanal import dashboardTestClass #archivo para checar dashboard de canal
+from TESTcompraInstitucional import shoppingRamosInstitucional # archivo para checar pruebas de compras institucionales
+from TESTcompraTarjeta import shoppingRamosTDDTDC #Archivo  para checar pruebas de compras con tarjeta
+from TESTcompraOxxo import  shoppingRamosOXXO #Archivo para checar una compra con oxxo
+from TESTresurtidoInventario import  stockRestoreClass #Archivo para llenar el inventario
+from TESTdashboardGeneral import generalDashboardTestClass #Archivo para checar el dashboard general de todos los dashboard
+from TESTcreateNewProduct import  productCreation #Archivo para crear un producto
 
 #Imports comunes python
 import sys
@@ -15,8 +21,7 @@ import time
 import os
 #Para desidentar: CTRL + SHIFT + BRACKET IZQ
 #Arreglo de clases que fueron importadas desde los archivos
-clasesDeArchivos = [dashboardTestClass,shoppingRamosSPEI]
-
+clasesDeArchivos = [misMetodosPago,stockRestoreClass,shoppingRamosSPEI,shoppingRamosInstitucional,shoppingRamosTDDTDC,shoppingRamosOXXO,generalDashboardTestClass,dashboardTestClass,productCreation]
 #Para imprimir con los colores reservados de IDLE python
 try: color = sys.stdout.shell
 #except AttributeError: raise RuntimeError("Use IDLE")

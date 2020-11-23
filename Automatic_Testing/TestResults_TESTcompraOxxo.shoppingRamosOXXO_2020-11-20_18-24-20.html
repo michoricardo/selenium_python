@@ -11,8 +11,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class='attribute'><strong>Start Time: </strong>2020-11-11 14:22:30</p>
-                <p class='attribute'><strong>Duration: </strong>11.10 s</p>
+                <p class='attribute'><strong>Start Time: </strong>2020-11-20 18:24:20</p>
+                <p class='attribute'><strong>Duration: </strong>5.23 s</p>
                 <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
@@ -21,7 +21,7 @@
                 <table class='table table-hover table-responsive'>
                     <thead>
                         <tr>
-                            <th>TESTcompraSpei.shoppingRamosSPEI</th>
+                            <th>TESTcompraOxxo.shoppingRamosOXXO</th>
                             <th>Status</th>
                             <th></th>
                         </tr>
@@ -37,42 +37,28 @@
                             </td>
                         </tr>
                         <tr style="display:none;">
-                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">MaxRetryError: HTTPConnectionPool(host='localhost', port=52741): Max retries exceeded with url: /session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03E77C50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))</p><p style="color:maroon;">Traceback (most recent call last):
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
-    (self._dns_host, self.port), self.timeout, **extra_kw
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\connection.py", line 84, in create_connection
-    raise err
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\connection.py", line 74, in create_connection
-    sock.connect(sa)
-ConnectionRefusedError: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))</p><p style="color:maroon;">Traceback (most recent call last):
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
     chunked=chunked,
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 392, in _make_request
-    conn.request(method, url, **httplib_request_kw)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
-    self._send_request(method, url, body, headers, encode_chunked)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
-    self.endheaders(body, encode_chunked=encode_chunked)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
-    self._send_output(message_body, encode_chunked=encode_chunked)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
-    self.send(msg)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
-    self.connect()
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connection.py", line 187, in connect
-    conn = self._new_conn()
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
-    self, "Failed to establish a new connection: %s" % e
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x03E77C50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una conexión existente por el host remoto
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraSpei.py", line 19, in setUp
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcompraOxxo.py", line 19, in setUp
     driver = webdriver.Firefox(executable_path=r"C:\Users\DELL\Documents\Scripts de python\selenium_python\geckodriver.exe")
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 174, in __init__
     keep_alive=True)
@@ -92,23 +78,34 @@ Traceback (most recent call last):
     return self.urlopen(method, url, **extra_kw)
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\poolmanager.py", line 336, in urlopen
     response = conn.urlopen(method, u.request_uri, **kw)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 767, in urlopen
-    **response_kw
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 767, in urlopen
-    **response_kw
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 767, in urlopen
-    **response_kw
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
     method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\retry.py", line 439, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=52741): Max retries exceeded with url: /session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x03E77C50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión'))
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\packages\six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))
 </p>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 11.10 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 5.23 s
                             </td>
                         </tr>
                     </tbody>

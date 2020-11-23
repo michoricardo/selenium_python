@@ -11,8 +11,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Unittest Results</h2>
-                <p class='attribute'><strong>Start Time: </strong>2020-11-11 14:22:30</p>
-                <p class='attribute'><strong>Duration: </strong>5.02 s</p>
+                <p class='attribute'><strong>Start Time: </strong>2020-11-20 18:24:20</p>
+                <p class='attribute'><strong>Duration: </strong>37.15 s</p>
                 <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
             </div>
         </div>
@@ -21,14 +21,14 @@
                 <table class='table table-hover table-responsive'>
                     <thead>
                         <tr>
-                            <th>TESTdashboardCanal.dashboardTestClass</th>
+                            <th>TESTcreateNewProduct.productCreation</th>
                             <th>Status</th>
                             <th></th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class='warning'>
-                            <td class="col-xs-10">test_specificDashboard</td>
+                            <td class="col-xs-10">test_creacionProducto</td>
                             <td class="col-xs-1">
                                 <span class="label label-warning" style="display:block;width:40px;">Error</span>
                             </td>
@@ -37,7 +37,19 @@
                             </td>
                         </tr>
                         <tr style="display:none;">
-                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))</p><p style="color:maroon;">Traceback (most recent call last):
+                            <td class="col-xs-9" colspan="3"><p>Se hizo click en el modal molesto del newsletter
+<br>
+Haciendo click en iniciar sesion GOBSTORE
+<br>
+Campo para autenticacion por mail encontrado,escribiendo email
+<br>
+Se encontro el campo para password, enviando password...
+<br>
+Se encontro el boton ingresar, haciendo click
+<br>
+Inicio de sesion exitoso
+<br>
+</p><p style="color:maroon;">ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None))</p><p style="color:maroon;">Traceback (most recent call last):
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
     chunked=chunked,
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 426, in _make_request
@@ -58,14 +70,12 @@ ConnectionResetError: [WinError 10054] Se ha forzado la interrupción de una cone
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTdashboardCanal.py", line 19, in setUp
-    driver = webdriver.Firefox(executable_path=r"C:\Users\DELL\Documents\Scripts de python\selenium_python\geckodriver.exe")
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 174, in __init__
-    keep_alive=True)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 157, in __init__
-    self.start_session(capabilities, browser_profile)
-  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 252, in start_session
-    response = self.execute(Command.NEW_SESSION, parameters)
+  File "C:\Users\DELL\Documents\Scripts de python\selenium_python\Automatic_Testing\TESTcreateNewProduct.py", line 63, in test_creacionProducto
+    botonNuevoProducto=driver.find_element_by_xpath('//*[@id="newProduct"]')
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
     response = self.command_executor.execute(driver_command, params)
   File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
@@ -105,7 +115,7 @@ urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(1
                         </tr>
                         <tr>
                             <td colspan="3">
-                                Total: 1, Pass: 0, Error: 1 -- Duration: 5.02 s
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 37.15 s
                             </td>
                         </tr>
                     </tbody>

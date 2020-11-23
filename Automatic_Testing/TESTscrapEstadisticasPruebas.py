@@ -94,6 +94,8 @@ def  main():
     print('arreglo de duraciones',durationList)
     print('arreglo totales',totalList)
     print('arreglo de nombres',namesList)
+    print("las pasadas int totalessss",passedIntTotal)
+    print("las totaslessss", passedIntTotal)
 def tearDown(self):
     driver.quit()
 if __name__ == "__main__":
