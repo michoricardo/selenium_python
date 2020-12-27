@@ -2,51 +2,49 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-
 ## These messages are used as headings in the recommendation doorhanger
 
-cfr-doorhanger-extension-heading = Extensión recomendada
-cfr-doorhanger-feature-heading = Característica recomendada
-cfr-doorhanger-pintab-heading = Intenta esto: Fijar pestaña
-
+cfr-doorhanger-extension-heading = Recommended Extension
+cfr-doorhanger-feature-heading = Recommended Feature
+cfr-doorhanger-pintab-heading = Try This: Pin Tab
 ##
 
 cfr-doorhanger-extension-sumo-link =
-    .tooltiptext = ¿Por qué estoy viendo esto?
+  .tooltiptext = Why am I seeing this
 
-cfr-doorhanger-extension-cancel-button = Ahora no
-    .accesskey = N
+cfr-doorhanger-extension-cancel-button = Not Now
+  .accesskey = N
 
-cfr-doorhanger-extension-ok-button = Agregar ahora
-    .accesskey = A
-cfr-doorhanger-pintab-ok-button = Fijar esta pestaña
-    .accesskey = F
+cfr-doorhanger-extension-ok-button = Add Now
+  .accesskey = A
+cfr-doorhanger-pintab-ok-button = Pin This Tab
+  .accesskey = P
 
-cfr-doorhanger-extension-manage-settings-button = Administrar configuraciones de recomendación
-    .accesskey = m
+cfr-doorhanger-extension-manage-settings-button = Manage Recommendation Settings
+  .accesskey = M
 
-cfr-doorhanger-extension-never-show-recommendation = No mostrar esta recomendación
-    .accesskey = N
+cfr-doorhanger-extension-never-show-recommendation = Don’t Show Me This Recommendation
+  .accesskey = S
 
-cfr-doorhanger-extension-learn-more-link = Saber más
+cfr-doorhanger-extension-learn-more-link = Learn more
 
 # This string is used on a new line below the add-on name
 # Variables:
 #   $name (String) - Add-on author name
-cfr-doorhanger-extension-author = por { $name }
+cfr-doorhanger-extension-author = by { $name }
 
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
-cfr-doorhanger-extension-notification = Recomendación
-cfr-doorhanger-extension-notification2 = Recomendación
-    .tooltiptext = Recomendación de extensión
-    .a11y-announcement = Recomendación de extensión disponible
+cfr-doorhanger-extension-notification = Recommendation
+cfr-doorhanger-extension-notification2 = Recommendation
+  .tooltiptext = Extension recommendation
+  .a11y-announcement = Extension recommendation available
 
 # This is a notification displayed in the address bar.
 # When clicked it opens a panel with a message for the user.
-cfr-doorhanger-feature-notification = Recomendación
-    .tooltiptext = Recomendación de la característica
-    .a11y-announcement = Recomendación de las características disponibles
+cfr-doorhanger-feature-notification = Recommendation
+  .tooltiptext = Feature recommendation
+  .a11y-announcement = Feature recommendation available
 
 ## Add-on statistics
 ## These strings are used to display the total number of
@@ -55,109 +53,109 @@ cfr-doorhanger-feature-notification = Recomendación
 # Variables:
 #   $total (Number) - The rating of the add-on from 1 to 5
 cfr-doorhanger-extension-rating =
-    .tooltiptext =
-        { $total ->
-            [one] { $total } estrella
-           *[other] { $total } estrellas
-        }
+  .tooltiptext =
+    { $total ->
+        [one] { $total } star
+       *[other] { $total } stars
+    }
 # Variables:
 #   $total (Number) - The total number of users using the add-on
 cfr-doorhanger-extension-total-users =
-    { $total ->
-        [one] { $total } usuario
-       *[other] { $total } usuarios
-    }
+  { $total ->
+      [one] { $total } user
+     *[other] { $total } users
+  }
 
-cfr-doorhanger-pintab-description = Accede fácilmente a tus sitios más visitados. Mantén los sitios abiertos en una pestaña (incluso cuando reinicies).
+cfr-doorhanger-pintab-description = Get easy access to your most-used sites. Keep sites open in a tab (even when you restart).
 
 ## These messages are steps on how to use the feature and are shown together.
 
-cfr-doorhanger-pintab-step1 = <b>Haz clic con el botón derecho</b> en la pestaña que quieres fijar.
-cfr-doorhanger-pintab-step2 = Selecciona <b>Fijar pestaña</b> en el menú.
-cfr-doorhanger-pintab-step3 = Si el sitio tiene una actualización, verás un punto azul en tu pestaña fijada.
+cfr-doorhanger-pintab-step1 = <b>Right-click</b> on the tab you want to pin.
+cfr-doorhanger-pintab-step2 = Select <b>Pin Tab</b> from the menu.
+cfr-doorhanger-pintab-step3 = If the site has an update you’ll see a blue dot on your pinned tab.
 
-cfr-doorhanger-pintab-animation-pause = Pausar
-cfr-doorhanger-pintab-animation-resume = Continuar
+cfr-doorhanger-pintab-animation-pause = Pause
+cfr-doorhanger-pintab-animation-resume = Resume
 
 
 ## Firefox Accounts Message
 
-cfr-doorhanger-bookmark-fxa-header = Sincroniza tus marcadores en todas partes.
-cfr-doorhanger-bookmark-fxa-body = ¡Gran hallazgo! Ahora no te quedes sin este marcador en tus dispositivos móviles. Coemienza con una { -fxaccount-brand-name }.
-cfr-doorhanger-bookmark-fxa-link-text = Sincronizar marcadores ahora...
+cfr-doorhanger-bookmark-fxa-header = Sync your bookmarks everywhere.
+cfr-doorhanger-bookmark-fxa-body = Great find! Now don’t be left without this bookmark on your mobile devices. Get Started with a { -fxaccount-brand-name }.
+cfr-doorhanger-bookmark-fxa-link-text = Sync bookmarks now…
 cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
-    .aria-label = Botón Cerrar
-    .title = Cerrar
+  .aria-label = Close button
+  .title = Close
 
 ## Protections panel
 
-cfr-protections-panel-header = Navega sin que te sigan
-cfr-protections-panel-body = Que tu información se quede en tus manos. { -brand-short-name } te protege de muchos de los rastreadores comunes que te espían al explorar la web.
-cfr-protections-panel-link-text = Más información
+cfr-protections-panel-header = Browse without being followed
+cfr-protections-panel-body = Keep your data to yourself. { -brand-short-name } protects you from many of the most common trackers that follow what you do online.
+cfr-protections-panel-link-text = Learn more
 
 ## What's New toolbar button and panel
 
 # This string is used by screen readers to offer a text based alternative for
 # the notification icon
-cfr-badge-reader-label-newfeature = Nueva característica:
+cfr-badge-reader-label-newfeature = New feature:
 
 cfr-whatsnew-button =
-    .label = Novedades
-    .tooltiptext = Novedades
+  .label = What’s New
+  .tooltiptext = What’s New
 
-cfr-whatsnew-panel-header = Novedades
+cfr-whatsnew-release-notes-link-text = Read the release notes
 
-cfr-whatsnew-release-notes-link-text = Lee el informe de novedades
-
-cfr-whatsnew-fx70-title = { -brand-short-name } ahora lucha más por tu privacidad
+cfr-whatsnew-fx70-title = { -brand-short-name } now fights harder for your privacy
 cfr-whatsnew-fx70-body =
-    La última actualización mejora la función de protección contra rastreo y hace
-    que sea muy sencillo crear contraseñas seguras para cada sitio.
+   The latest update enhances the Tracking Protection feature and makes it
+   easier than ever to create secure passwords for every site.
 
-cfr-whatsnew-tracking-protect-title = Protégete de los rastreadores
+cfr-whatsnew-tracking-protect-title = Protect yourself from trackers
 cfr-whatsnew-tracking-protect-body =
-    { -brand-short-name } bloquea muchos rastreadores sociales y de sitios cruzados comunes que
-    siguen tu actividad en línea.
-cfr-whatsnew-tracking-protect-link-text = Mira tu reporte
+   { -brand-short-name } blocks many common social and cross-site trackers that
+   follow what you do online.
+cfr-whatsnew-tracking-protect-link-text = View Your Report
 
 # This string is displayed before a large numeral that indicates the total
 # number of tracking elements blocked. Don’t add $blockedCount to your
 # localization, because it would result in the number showing twice.
 cfr-whatsnew-tracking-blocked-title =
-    { $blockedCount ->
-        [one] Rastreador bloqueado
-       *[other] Rastreadores bloqueados
-    }
-cfr-whatsnew-tracking-blocked-subtitle = Desde { DATETIME($earliestDate, month: "long", year: "numeric") }
-cfr-whatsnew-tracking-blocked-link-text = Ver el informe
+  { $blockedCount ->
+    [one] Tracker blocked
+   *[other] Trackers blocked
+  }
+cfr-whatsnew-tracking-blocked-subtitle =
+   Since { DATETIME($earliestDate, month: "long", year: "numeric") }
+cfr-whatsnew-tracking-blocked-link-text = View Report
 
-cfr-whatsnew-lockwise-backup-title = Respalda tus contraseñas
-cfr-whatsnew-lockwise-backup-body = Ahora puedes generar contraseñas seguras a las que puede acceder desde donde las necesites.
-cfr-whatsnew-lockwise-backup-link-text = Activar copias de seguridad
+cfr-whatsnew-lockwise-backup-title = Back up your passwords
+cfr-whatsnew-lockwise-backup-body =
+   Now generate secure passwords you can access anywhere you sign in.
+cfr-whatsnew-lockwise-backup-link-text = Turn on backups
 
-cfr-whatsnew-lockwise-take-title = Lleva tus contraseñas contigo
+cfr-whatsnew-lockwise-take-title = Take your passwords with you
 cfr-whatsnew-lockwise-take-body =
-    La aplicación móvil { -lockwise-brand-short-name } te permite acceder de forma segura a tus
-    copias de seguridad de las contraseñas desde cualquier lugar.
-cfr-whatsnew-lockwise-take-link-text = Obtener la aplicación
+   The { -lockwise-brand-short-name } mobile app lets you securely access your
+   backed up passwords from anywhere.
+cfr-whatsnew-lockwise-take-link-text = Get the app
 
 ## Search Bar
 
-cfr-whatsnew-searchbar-title = Escribe menos, encuentra más con la barra de direcciones
-cfr-whatsnew-searchbar-body-topsites = Ahora, simplemente seleccione la barra de direcciones y se va a expandir un cuadro con enlaces a sus sitios principales.
-cfr-whatsnew-searchbar-icon-alt-text = Ícono de lupa
+cfr-whatsnew-searchbar-title = Type less, find more with the address bar
+cfr-whatsnew-searchbar-body-topsites = Now, just select the address bar, and a box will expand with links to your top sites.
+cfr-whatsnew-searchbar-icon-alt-text = Magnifying glass icon
 
 ## Picture-in-Picture
 
-cfr-whatsnew-pip-header = Mira videos mientras navegas
-cfr-whatsnew-pip-body = La función picture-in-picture muestra el video en una ventana flotante para que puedas verlo mientras trabajas en otras pestañas.
-cfr-whatsnew-pip-cta = Saber más
+cfr-whatsnew-pip-header = Watch videos while you browse
+cfr-whatsnew-pip-body = Picture-in-picture pops video into a floating window so you can watch while working in other tabs.
+cfr-whatsnew-pip-cta = Learn more
 
 ## Permission Prompt
 
-cfr-whatsnew-permission-prompt-header = Reduce molestas ventanas emergentes
-cfr-whatsnew-permission-prompt-body = { -brand-shorter-name } ahora bloquea los sitios para que no soliciten automáticamente el envío de mensajes emergentes.
-cfr-whatsnew-permission-prompt-cta = Saber más
+cfr-whatsnew-permission-prompt-header = Fewer annoying site pop-ups
+cfr-whatsnew-permission-prompt-body = { -brand-shorter-name } now blocks sites from automatically asking to send you pop-up messages.
+cfr-whatsnew-permission-prompt-cta = Learn more
 
 ## Fingerprinter Counter
 
@@ -165,59 +163,59 @@ cfr-whatsnew-permission-prompt-cta = Saber más
 # number of tracking elements blocked. Don’t add $fingerprinterCount to your
 # localization, because it would result in the number showing twice.
 cfr-whatsnew-fingerprinter-counter-header =
-    { $fingerprinterCount ->
-        [one] Detector de huellas digitales bloqueado
-       *[other] Detectores de huellas digitales bloqueados
-    }
-cfr-whatsnew-fingerprinter-counter-body = { -brand-shorter-name } bloquea muchos detectores de huellas digitales (fingerprinters) que recopilan en secreto información sobre tu dispositivo y acciones, para crear un perfil tuyo con fines publicitarios.
+  { $fingerprinterCount ->
+    [one] Fingerprinter blocked
+   *[other] Fingerprinters blocked
+  }
+cfr-whatsnew-fingerprinter-counter-body = { -brand-shorter-name } blocks many fingerprinters that secretly gather information about your device and actions to create an advertising profile of you.
 
 # Message variation when fingerprinters count is less than 10
 cfr-whatsnew-fingerprinter-counter-header-alt = Fingerprinters
-cfr-whatsnew-fingerprinter-counter-body-alt = { -brand-shorter-name } puede bloquear muchos detectores de huellas digitales (fingerprinters) que recopilan en secreto información sobre tu dispositivo y acciones, para crear un perfil tuyo con fines publicitarios.
+cfr-whatsnew-fingerprinter-counter-body-alt = { -brand-shorter-name } can block fingerprinters that secretly gather information about your device and actions to create an advertising profile of you.
 
 ## Bookmark Sync
 
-cfr-doorhanger-sync-bookmarks-header = Obtener este marcador en tu teléfono
-cfr-doorhanger-sync-bookmarks-body = Lleva contigo tus marcadores, contraseñas, historial y más, a dónde sea que inicies sesión en { -brand-product-name }.
-cfr-doorhanger-sync-bookmarks-ok-button = Habilitar { -sync-brand-short-name }
-    .accesskey = T
+cfr-doorhanger-sync-bookmarks-header = Get this bookmark on your phone
+cfr-doorhanger-sync-bookmarks-body = Take your bookmarks, passwords, history and more everywhere you’re signed into { -brand-product-name }.
+cfr-doorhanger-sync-bookmarks-ok-button = Turn on { -sync-brand-short-name }
+  .accesskey = T
 
 ## Login Sync
 
-cfr-doorhanger-sync-logins-header = No vuelvas a perder una contraseña
-cfr-doorhanger-sync-logins-body = Almacena de forma segura tus contraseñas y sincronízalas en todos tus dispositivos.
-cfr-doorhanger-sync-logins-ok-button = Activar { -sync-brand-short-name }
-    .accesskey = A
+cfr-doorhanger-sync-logins-header = Never Lose a Password Again
+cfr-doorhanger-sync-logins-body = Securely store and sync your passwords to all your devices.
+cfr-doorhanger-sync-logins-ok-button = Turn on { -sync-brand-short-name }
+  .accesskey = T
 
 ## Send Tab
 
-cfr-doorhanger-send-tab-header = Leer sobre la marcha
-cfr-doorhanger-send-tab-recipe-header = Llevar esta receta a la cocina
-cfr-doorhanger-send-tab-body = Send Tab te permite compartir fácilmente este enlace a tu teléfono o dónde sea que inicies sesión en { -brand-product-name }
-cfr-doorhanger-send-tab-ok-button = Probar Send Tab
-    .accesskey = T
+cfr-doorhanger-send-tab-header = Read this on the go
+cfr-doorhanger-send-tab-recipe-header = Take this recipe to the kitchen
+cfr-doorhanger-send-tab-body = Send Tab lets you easily share this link to your phone or anywhere you’re signed in to { -brand-product-name }.
+cfr-doorhanger-send-tab-ok-button = Try Send Tab
+  .accesskey = T
 
 ## Firefox Send
 
-cfr-doorhanger-firefox-send-header = Compartir este PDF con seguridad
-cfr-doorhanger-firefox-send-body = Mantén tus documentos confidenciales a salvo de miradas indiscretas con cifrado de extremo a extremo y un enlace que desaparece cuando hayas terminado.
-cfr-doorhanger-firefox-send-ok-button = Probar { -send-brand-name }
-    .accesskey = T
+cfr-doorhanger-firefox-send-header = Share this PDF securely
+cfr-doorhanger-firefox-send-body = Keep your sensitive documents safe from prying eyes with end-to-end encryption and a link that disappears when you’re done.
+cfr-doorhanger-firefox-send-ok-button = Try { -send-brand-name }
+  .accesskey = T
 
 ## Social Tracking Protection
 
-cfr-doorhanger-socialtracking-ok-button = Ver protecciones
-    .accesskey = p
-cfr-doorhanger-socialtracking-close-button = Cerrar
-    .accesskey = C
-cfr-doorhanger-socialtracking-dont-show-again = No me muestres mensajes como este de nuevo
-    .accesskey = D
-cfr-doorhanger-socialtracking-heading = { -brand-short-name } impidió que una red social te rastreara hasta aquí
-cfr-doorhanger-socialtracking-description = Tu privacidad importa. Ahora, { -brand-short-name } bloquea los rastreadores de redes sociales más comunes, limitando la cantidad de datos que pueden recopilar sobre lo que haces en línea.
-cfr-doorhanger-fingerprinters-heading = { -brand-short-name } bloqueó un detector de huellas digitales en esta página
-cfr-doorhanger-fingerprinters-description = Tu privacidad importa. { -brand-short-name } ahora bloquea los detectores de huellas digitales, que recopilan piezas de información que identifican de forma única a tu dispositivo para poder rastrearte.
-cfr-doorhanger-cryptominers-heading = { -brand-short-name } bloqueó un criptominero en esta página
-cfr-doorhanger-cryptominers-description = Tu privacidad es importante. { -brand-short-name } ahora bloquea los criptomineros, que utilizan la potencia informática de tu sistema para extraer dinero digital.
+cfr-doorhanger-socialtracking-ok-button = See Protections
+  .accesskey = P
+cfr-doorhanger-socialtracking-close-button = Close
+  .accesskey = C
+cfr-doorhanger-socialtracking-dont-show-again = Don’t show me messages like this again
+  .accesskey = D
+cfr-doorhanger-socialtracking-heading = { -brand-short-name } stopped a social network from tracking you here
+cfr-doorhanger-socialtracking-description = Your privacy matters. { -brand-short-name } now blocks common social media trackers, limiting how much data they can collect about what you do online.
+cfr-doorhanger-fingerprinters-heading = { -brand-short-name } blocked a fingerprinter on this page
+cfr-doorhanger-fingerprinters-description = Your privacy matters. { -brand-short-name } now blocks fingerprinters, which collect pieces of uniquely identifiable information about your device to track you.
+cfr-doorhanger-cryptominers-heading = { -brand-short-name } blocked a cryptominer on this page
+cfr-doorhanger-cryptominers-description = Your privacy matters. { -brand-short-name } now blocks cryptominers, which use your system’s computing power to mine digital money.
 
 ## Enhanced Tracking Protection Milestones
 
@@ -225,76 +223,72 @@ cfr-doorhanger-cryptominers-description = Tu privacidad es importante. { -brand-
 #   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
 #   $date (String) - The date we began recording the count of blocked trackers
 cfr-doorhanger-milestone-heading =
-    { $blockedCount ->
-       *[other] ¡{ -brand-short-name } bloqueó más de <b>{ $blockedCount }</b> rastreadores desde { $date }!
-    }
-cfr-doorhanger-milestone-ok-button = Ver todo
-    .accesskey = V
-
-cfr-doorhanger-milestone-close-button = Cerrar
-    .accesskey = C
+  { $blockedCount ->
+   *[other] { -brand-short-name } blocked over <b>{ $blockedCount }</b> trackers since { $date }!
+  }
+cfr-doorhanger-milestone-ok-button = See All
+  .accesskey = S
+cfr-doorhanger-milestone-close-button = Close
+  .accesskey = C
 
 ## What’s New Panel Content for Firefox 76
 
-
 ## Lockwise message
 
-cfr-whatsnew-lockwise-header = Crea fácilmente contraseñas seguras
-cfr-whatsnew-lockwise-body = Es difícil pensar contraseñas únicas y seguras para cada cuenta. Al crear una contraseña, selecciona el campo de contraseña para usar una contraseña segura generada por { -brand-shorter-name }.
-cfr-whatsnew-lockwise-icon-alt = Ícono de { -lockwise-brand-short-name }
+cfr-whatsnew-lockwise-header = Easily create secure passwords
+cfr-whatsnew-lockwise-body = It’s difficult to think of unique, secure passwords for every account. When creating a password, select the password field to use a secure, generated password from { -brand-shorter-name }.
+cfr-whatsnew-lockwise-icon-alt = { -lockwise-brand-short-name } icon
 
 ## Vulnerable Passwords message
 
-cfr-whatsnew-passwords-header = Recibe alertas sobre contraseñas vulnerables
-cfr-whatsnew-passwords-body = Los hackers saben que la gente reutiliza sus contraseñas. Si usaste la misma contraseña en múltiples sitios y uno de esos sitios sufre una filtración de datos, verás una alerta en { -lockwise-brand-short-name } para cambiar tu contraseña en esos sitios.
-cfr-whatsnew-passwords-icon-alt = Ícono de contraseña vulnerable
+cfr-whatsnew-passwords-header = Get alerts about vulnerable passwords
+cfr-whatsnew-passwords-body = Hackers know people reuse the same passwords. If you used the same password on multiple sites, and one of those sites was in a data breach, you’ll see an alert in { -lockwise-brand-short-name } to change your password on those sites.
+cfr-whatsnew-passwords-icon-alt = Vulnerable password key icon
 
 ## Picture-in-Picture fullscreen message
 
-cfr-whatsnew-pip-fullscreen-header = Llevar el picture-in-picture a pantalla completa
-cfr-whatsnew-pip-fullscreen-body = Cuando llevas un video a una ventana flotante, puedes a continuación hacer doble clic en esa ventana para llevarlo a pantalla completa.
-cfr-whatsnew-pip-fullscreen-icon-alt = Ícono de picture-in-picture
+cfr-whatsnew-pip-fullscreen-header = Take picture-in-picture fullscreen
+cfr-whatsnew-pip-fullscreen-body = When you pop a video into a floating window, you can now double-click on that window to go fullscreen.
+cfr-whatsnew-pip-fullscreen-icon-alt = Picture-in-picture icon
 
 ## Protections Dashboard message
 
-cfr-whatsnew-protections-header = Protecciones a la vista
-cfr-whatsnew-protections-body = El Panel de protecciones incluye informes resumidos sobre filtraciones de datos y administración de contraseñas. Ahora puedes realizar un seguimiento de cuántas filtraciones se resolvieron y ver si alguna de tus contraseñas guardadas pudo estar expuesta en una filtración de datos.
-cfr-whatsnew-protections-cta-link = Ver panel de protecciones
-cfr-whatsnew-protections-icon-alt = Icono de escudo
+cfr-whatsnew-protections-header = Protections at a glance
+cfr-whatsnew-protections-body = The Protections Dashboard includes summary reports about data breaches and password management. You can now track how many breaches you’ve resolved, and see if any of your saved passwords may have been exposed in a data breach.
+cfr-whatsnew-protections-cta-link = View Protections Dashboard
+cfr-whatsnew-protections-icon-alt = Shield icon
 
 ## Better PDF message
 
-cfr-whatsnew-better-pdf-header = Mejor experiencia con PDF
-cfr-whatsnew-better-pdf-body = Los documentos PDF ahora se abren directamente en { -brand-short-name }, manteniendo su flujo de trabajo al alcance de la mano.
+cfr-whatsnew-better-pdf-header = Better PDF experience
+cfr-whatsnew-better-pdf-body = PDF documents now open directly in { -brand-short-name }, keeping your workflow within easy reach.
 
 ## DOH Message
 
-cfr-doorhanger-doh-body = Tu privacidad importa. { -brand-short-name } ahora enruta de forma segura tus solicitudes DNS siempre que sea posible a un servicio asociado para protegerte mientras navegas.
-cfr-doorhanger-doh-header = Búsquedas DNS más seguras y encriptadas
-cfr-doorhanger-doh-primary-button = Perfecto, lo entiendo
-    .accesskey = O
-cfr-doorhanger-doh-secondary-button = Deshabilitar
-    .accesskey = D
+cfr-doorhanger-doh-body = Your privacy matters. { -brand-short-name } now securely routes your DNS requests whenever possible to a partner service to protect you while you browse.
+cfr-doorhanger-doh-header = More secure, encrypted DNS lookups
+cfr-doorhanger-doh-primary-button = OK, Got it
+  .accesskey = O
+cfr-doorhanger-doh-secondary-button = Disable
+  .accesskey = D
 
-## What's new: Cookies message
+## Fission Experiment Message
 
-cfr-whatsnew-clear-cookies-header = Protección automática contra tácticas de rastreo furtivas
-cfr-whatsnew-clear-cookies-body = Algunos rastreadores te redirigen a otros sitios web que configuran cookies en secreto. { -brand-short-name } ahora elimina automáticamente esas cookies para que no puedan seguirte.
-cfr-whatsnew-clear-cookies-image-alt = Ilustración de cookie bloqueada
-
-## External string for cfr-doorhanger-fission-body
-cfr-doorhanger-fission-body = { -brand-short-name } has enabled an experimental feature Fission (site isolation) for you. By isolating each site into a separate process, Fission provides an additional layer of security for you and the websites you visit.
-
-## External string for cfr-doorhanger-fission-header
+cfr-doorhanger-fission-body-approved = Your privacy matters. { -brand-short-name } now isolates, or sandboxes, websites from each other, which makes it harder for hackers to steal passwords, credit card numbers, and other sensitive information.
 cfr-doorhanger-fission-header = Site Isolation
-
-## External string for cfr-doorhanger-fission-primary-button
 cfr-doorhanger-fission-primary-button = OK, Got it
   .accesskey = O
-
-## External string for cfr-doorhanger-fission-secondary-button
 cfr-doorhanger-fission-secondary-button = Learn more
   .accesskey = L
 
-## External string for cfr-doorhanger-fission-body-approved
-cfr-doorhanger-fission-body-approved = Your privacy matters. { -brand-short-name } now isolates, or sandboxes, websites from each other, which makes it harder for hackers to steal passwords, credit card numbers, and other sensitive information.
+## What's new: Cookies message
+
+cfr-whatsnew-clear-cookies-header = Automatic protection from sneaky tracking tactics
+cfr-whatsnew-clear-cookies-body = Some trackers redirect you to other websites that secretly set cookies. { -brand-short-name } now automatically clears those cookies so you can’t be followed.
+cfr-whatsnew-clear-cookies-image-alt = Cookie blocked illustration
+
+## What's new: Media controls message
+
+cfr-whatsnew-media-keys-header = More media controls
+cfr-whatsnew-media-keys-body = Play and pause audio or video right from your keyboard or headset, making it easy to control media from another tab, program, or even when your computer is locked. You can also move between tracks using the forward and back keys.
+cfr-whatsnew-media-keys-button = Learn how

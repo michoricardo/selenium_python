@@ -5958,3 +5958,24 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1609057344498	geckodriver	INFO	Listening on 127.0.0.1:52511
+1609057347220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilecoJGho"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+[Parent 2624, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3A0148,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+1609057398261	Marionette	INFO	Listening on port 52520
+1609057399435	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609057436182	Marionette	INFO	Stopped listening on port 52520
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
