@@ -18,9 +18,10 @@ class shoppingMixClass(unittest.TestCase):
         driver = webdriver.Firefox(executable_path=r"C:\Users\DELL\Documents\Scripts de python\selenium_python\geckodriver.exe")
         el.loginFromEmailClassDev().test_emailLog(driver)
     def test_compraMix(self):
-        driver.get("https://gobstore-qa.firebaseapp.com/carnesramos")
+        arregloExtras = ["'oQ0JXRH272Wr5ZfUCdcY'","'yOC2OdW19WPQrsyvunPN'","'ffXuw5WGxtGx9oAnSqpA'","'EUKRqXcreRY6XIxjSeUl'","'7Xckm3LDgOHUXlcnSgb5'","'MX3QgHH6ub0xHabneL2Y'"]
+        driver.get("https://gobstoredev.firebaseapp.com/bearsinthekitchen")
         global codigoPostal
-        codigoPostal= "64849"
+        codigoPostal= "25204"
         time.sleep(3)
         try:
             modal = WebDriverWait(driver,40).until(EC.presence_of_element_located((By.XPATH,'//*[@id="postalCodeModal"]/div/div')))
@@ -37,56 +38,73 @@ class shoppingMixClass(unittest.TestCase):
             print("No tenias que poner CP porque ya habías comprado :)")
             print("<br>")
         time.sleep(3)
-        btn_chicharron = driver.find_element_by_xpath('//*[@id="customSectionsWrapper"]/div/div[2]/div[2]/div[1]')
-        if btn_chicharron is not None:
-            print("Clickeando imagen de chicharron para agregar a cart")
+        btn_mix1 = driver.find_element_by_css_selector("[data-mix-sku='TESTHK1']")
+        if btn_mix1 is not None:
+            print("Clickeando imagen del mix para agregar a cart")
             print("<br>")
-            btn_chicharron.click()
-            driver.implicitly_wait(10)
-            time.sleep(2)    
-        btn_addToCart = driver.find_element_by_id("btnAddItemToCard")
-        if btn_addToCart is not None:
-            print("Haciendo click en Agregar al carrito/ QTY default (1)")
-            print("<br>")
-            btn_addToCart.click()
+            btn_mix1.click()
             driver.implicitly_wait(10)
             time.sleep(2)
-        """
-        btn_checkCart = driver.find_element_by_xpath('/html/body/header/div/div/section/button[3]/span')
-        if btn_checkCart is not None:
-            print("Haciendo click para consultar carrito")
+        #Elegir toppings
+        sirloin = driver.find_element_by_css_selector("[data-topping-id='Xx2ZTMHPC5d3GgTdrshH']").find_element_by_css_selector(".incrementToppingQty ")
+        if sirloin is not None:
+            print("Eligiendo sirloin")
             print("<br>")
-            btn_checkCart.click()
-            driver.implicitly_wait(10)
-            time.sleep(8)
-        btn_proceedCheckout = driver.find_element_by_id("proceedToCheckout")
-        if btn_proceedCheckout is not None:
-            print("Haciendo click para proceder a checkout")
-            btn_proceedCheckout.click()
-            driver.implicitly_wait(10)
-            time.sleep(8)"""
-        cambio_pagina =driver.get("https://gobstore-qa.firebaseapp.com/carnesramos/checkout")
-        print("Llendo a checkout")
-        print("<br>")
-        time.sleep(5)
-        btn_OXXO = driver.find_element_by_xpath('//*[@id="paymentTypeSelector"]/li[2]/a')
-        if btn_OXXO is not None:
-            print("Eligiendo metodo de pago OXXO")
+            sirloin.click()
+            time.sleep(1)
+        pollo = driver.find_element_by_css_selector("[data-topping-id='U4crmvV8B6Lu1UAvpM7E']").find_element_by_css_selector(".incrementToppingQty ")
+        if pollo is not None:
+            print("Eligiendo pollo")
             print("<br>")
-            btn_OXXO.click()
-            driver.implicitly_wait(10)
-            time.sleep(8)
-        driver.execute_script("window.scrollTo(0,400)")
+            pollo.click()
+            time.sleep(1)
+        tortillas = driver.find_element_by_css_selector("[data-topping-id='5sGpEyl4naOB2y7PNFuo']").find_element_by_css_selector(".form-check-input ")
+        if tortillas is not None:
+            print("Eligiendo tortillas")
+            print("<br>")
+            tortillas.click()
+            time.sleep(1)
+        salsa_roja = driver.find_element_by_css_selector("[data-topping-id='uFjbuk3Xm8J0O90bixFo']").find_element_by_css_selector(".mix-topping-optn ")
+        if salsa_roja is not None:
+            print("Eligiendo salsa roja")
+            print("<br>")
+            salsa_roja.click()
+            time.sleep(1)
+        salsa_tatemada = driver.find_element_by_css_selector("[data-topping-id='XjKaeNIoFE2JfHZviTpJ']").find_element_by_css_selector(".mix-topping-optn ")
+        if salsa_roja is not None:
+            print("Eligiendo salsa tatemada")
+            print("<br>")
+            salsa_tatemada.click()
+            time.sleep(1)
+        salsa_verde = driver.find_element_by_css_selector("[data-topping-id='bWKx0KKak2SupZwARdaC']").find_element_by_css_selector(".mix-topping-optn ")
+        if salsa_verde is not None:
+            print("Eligiendo salsa verde")
+            print("<br>")
+            salsa_verde.click()
+            time.sleep(1)
+        charro_beans = driver.find_element_by_css_selector("[data-topping-id='O5l3NMYDOzsKwJB7Vfzx']").find_element_by_css_selector(".incrementToppingQty ")
+        if sirloin is not None:
+            print("Eligiendo frijoles charrros")
+            print("<br>")
+            charro_beans.click()
+            time.sleep(1)
+        fried_beans = driver.find_element_by_css_selector("[data-topping-id='7hP6gCA2NIAvW1KaSGPj']").find_element_by_css_selector(".incrementToppingQty ")
+        if sirloin is not None:
+            print("Eligiendo frijoles refritos")
+            print("<br>")
+            fried_beans.click()
+            time.sleep(1)
+        for producto in arregloExtras:
+            articulo = driver.find_element_by_css_selector("[data-topping-id={}]".format(producto)).find_element_by_css_selector(".incrementToppingQty ")
+            articulo.click()
+            time.sleep(1)
+        addToCart = driver.find_element_by_id('btnAddMixToCart').click()
         time.sleep(3)
-        disclaimerCheck = driver.find_element_by_xpath('//*[@id="paymentTypeAgreementMessageLabel"]')
-        if disclaimerCheck is not None:
-            print("Checkbox disclaimer encontrado")
-            print("<br>")
-            time.sleep(2)
-            disclaimerCheck.click()
+        driver.get("https://gobstoredev.firebaseapp.com/checkout/bearsinthekitchen")
+        time.sleep(3)
         driver.execute_script("window.scrollTo(0,1200)")
         #MANEJO DE DATEPICKER
-        datepicker = driver.find_element_by_xpath('//*[@id="inputDate"]')
+        datepicker = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]')
         if datepicker is not None:
             print("Date picker encontrado")
             print("<br>")
@@ -112,34 +130,28 @@ class shoppingMixClass(unittest.TestCase):
             time.sleep(1)
             print("<br>")
             #TERMINA MANEJO DE DATEPICKER
-        falto_algo=driver.find_element_by_xpath('//*[@id="extraComments"]').send_keys("No faltó nada")
-        time.sleep(1)
-        ordenar_btn=driver.find_element_by_xpath('//*[@id="handlePlaceOrder"]')
-        if ordenar_btn is not None:
-            print("Ordenando ...")
-            print("<br>")
-            ordenar_btn.click()
-            time.sleep(5)
-            alert_obj = driver.switch_to.alert
-            alert_obj.accept()
-            print("alerta aceptada")
-            time.sleep(20)
+            pedir = driver.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[5]/button')
+            if pedir is not None:
+                print("ordenando")
+                pedir.click()
+            #RECUPERANDO URL COMPRA EN HTML
+            time.sleep(10)
         urlcompra = driver.current_url
-        print("llego aqui")
         if urlcompra is not None:
             if "thankyou?order=" in urlcompra:
                 print("Enlace de compra:")
                 print("<br>")
                 print(urlcompra)
                 print("<br>")
-                #<a href="quien-soy.html">Quién soy</a>
                 print("<a href=")
                 print(urlcompra)
                 print(">")
                 print(urlcompra)
                 print("</a>")
-                #print('<a href="','"',urlcompra,'"'>urlcompra,'</a>')
-            
+        
+        
+        
+
     def tearDown(self):
         driver.quit()
 
