@@ -21,7 +21,8 @@ class shoppingMixClass(unittest.TestCase):
         arregloExtras = ["'oQ0JXRH272Wr5ZfUCdcY'","'yOC2OdW19WPQrsyvunPN'","'ffXuw5WGxtGx9oAnSqpA'","'EUKRqXcreRY6XIxjSeUl'","'7Xckm3LDgOHUXlcnSgb5'","'MX3QgHH6ub0xHabneL2Y'"]
         driver.get("https://gobstoredev.firebaseapp.com/bearsinthekitchen")
         global codigoPostal
-        codigoPostal= "25204"
+        #codigoPostal= "25204"
+        codigoPostal=75201
         time.sleep(3)
         try:
             modal = WebDriverWait(driver,40).until(EC.presence_of_element_located((By.XPATH,'//*[@id="postalCodeModal"]/div/div')))
@@ -103,34 +104,39 @@ class shoppingMixClass(unittest.TestCase):
         driver.get("https://gobstoredev.firebaseapp.com/checkout/bearsinthekitchen")
         time.sleep(3)
         driver.execute_script("window.scrollTo(0,1200)")
-        #MANEJO DE DATEPICKER
-        datepicker = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]')
-        if datepicker is not None:
-            print("Date picker encontrado")
-            print("<br>")
-            time.sleep(2)
-            actions= ActionChains(driver)
-            actions.move_to_element(datepicker).click().perform()
-            time.sleep(3)
-            print("<br>")
-            print("<br>")
-            tabla = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody')
-            if tabla is not None:
-                print("Se encontro la tabla")
-                activo = tabla.find_element_by_css_selector("#deliveryDatetimepicker td.day:not(.disabled)")
-                if activo is not None:
-                    print("se encontro activo en tabla")
+        #driver.execute_script("window.scrollTo(0,700)")
+        for i in range(2):
+            try:
+                #MANEJO DE DATEPICKER
+                datepicker = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]')
+                if datepicker is not None:
+                    print("Date picker encontrado")
                     print("<br>")
-                    print("valor: ",activo.get_attribute("value"))
+                    time.sleep(2)
+                    actions= ActionChains(driver)
+                    actions.move_to_element(datepicker).click().perform()
+                    time.sleep(3)
                     print("<br>")
-                    print("texto: ",activo.text)
                     print("<br>")
-                    activo.click()
-                    print("eligiendo dia activo")
-            time.sleep(1)
-            print("<br>")
-            #TERMINA MANEJO DE DATEPICKER
-            pedir = driver.find_element_by_xpath('//*[@id="app"]/div/div/div[2]/div[5]/button')
+                    tabla = driver.find_element_by_xpath('//*[@id="deliveryDatetimepicker"]/div[1]/ul/li[1]/div/div[1]/table/tbody') 
+                    if tabla is not None:
+                        print("Se encontro la tabla")
+                        activo = tabla.find_element_by_css_selector("#deliveryDatetimepicker td.day:not(.disabled)")
+                        if activo is not None:
+                            print("se encontro activo en tabla")
+                            print("<br>")
+                            print("valor: ",activo.get_attribute("value"))
+                            print("<br>")
+                            print("texto: ",activo.text)
+                            print("<br>")
+                            activo.click()
+                            print("eligiendo dia activo")
+                    time.sleep(1)
+                    print("<br>")
+                    #TERMINA MANEJO DE DATEPICKER
+            except NoSuchElementException as exception:
+                    print("No se pudo manejar el datepicker")
+            pedir=driver.find_element_by_css_selector('.btn.btn-primary.btn-lg.btn-block')
             if pedir is not None:
                 print("ordenando")
                 pedir.click()

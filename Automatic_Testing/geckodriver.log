@@ -6706,3 +6706,505 @@ JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebas
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1609264954872	geckodriver	INFO	Listening on 127.0.0.1:63542
+1609264957950	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileT5HKzK"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609264968987	Marionette	INFO	Listening on port 63550
+1609264969748	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609265048531	Marionette	INFO	Stopped listening on port 63550
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609265233225	geckodriver	INFO	Listening on 127.0.0.1:63792
+1609265236210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileCYb0kB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609265239997	Marionette	INFO	Listening on port 63802
+1609265240142	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609265315708	Marionette	INFO	Stopped listening on port 63802
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609265369691	geckodriver	INFO	Listening on 127.0.0.1:63989
+1609265372707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilemqbDzH"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609265376476	Marionette	INFO	Listening on port 64000
+1609265376632	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609265450727	Marionette	INFO	Stopped listening on port 64000
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609265529616	geckodriver	INFO	Listening on 127.0.0.1:64203
+1609265532632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile4iXMmg"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609265536246	Marionette	INFO	Listening on port 64213
+1609265536559	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609265608654	Marionette	INFO	Stopped listening on port 64213
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609265822532	geckodriver	INFO	Listening on 127.0.0.1:64522
+1609265825548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileFh84e2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609265829185	Marionette	INFO	Listening on port 64533
+1609265829480	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609265886411	Marionette	INFO	Stopped listening on port 64533
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609265961561	geckodriver	INFO	Listening on 127.0.0.1:64728
+1609265964592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileYwQGpz"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609265968129	Marionette	INFO	Listening on port 64738
+1609265968524	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609266025781	Marionette	INFO	Stopped listening on port 64738
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609266093659	geckodriver	INFO	Listening on 127.0.0.1:64923
+1609266096675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilet6SWBq"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609266100274	Marionette	INFO	Listening on port 64933
+1609266100609	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609266172666	Marionette	INFO	Stopped listening on port 64933
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609266211909	geckodriver	INFO	Listening on 127.0.0.1:65094
+1609266214925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile4A5rgB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609266218445	Marionette	INFO	Listening on port 65102
+1609266218829	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609266291260	Marionette	INFO	Stopped listening on port 65102
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609267150353	geckodriver	INFO	Listening on 127.0.0.1:61404
+1609267153370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilem6K3Sb"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609267157698	Marionette	INFO	Listening on port 61412
+1609267157944	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609267230605	Marionette	INFO	Stopped listening on port 61412
+[Parent 7320, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609267339145	geckodriver	INFO	Listening on 127.0.0.1:61569
+1609267342168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilezIEOme"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609267345809	Marionette	INFO	Listening on port 61580
+1609267346116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609267417843	Marionette	INFO	Stopped listening on port 61580
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609267497662	geckodriver	INFO	Listening on 127.0.0.1:61787
+1609267500685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileI8l3Vd"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609267504123	Marionette	INFO	Listening on port 61797
+1609267504610	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609267578110	Marionette	INFO	Stopped listening on port 61797
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609267603994	geckodriver	INFO	Listening on 127.0.0.1:61957
+1609267606996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileOAXehl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609267610510	Marionette	INFO	Listening on port 61965
+1609267610891	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609267683810	Marionette	INFO	Stopped listening on port 61965
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609267713225	geckodriver	INFO	Listening on 127.0.0.1:62046
+1609267716230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilesFI1LR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609267720067	Marionette	INFO	Listening on port 62054
+1609267720125	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1082: AbortError: Actor 'Prompt' destroyed before query 'Prompt:Open' was resolved
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609267744938	Marionette	INFO	Stopped listening on port 62054
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609267774376	geckodriver	INFO	Listening on 127.0.0.1:62136
+1609267777401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilebLTGhX"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609267780735	Marionette	INFO	Listening on port 62144
+1609267780835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609267853347	Marionette	INFO	Stopped listening on port 62144
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609268017130	geckodriver	INFO	Listening on 127.0.0.1:62267
+1609268020158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileoYMosO"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609268023873	Marionette	INFO	Listening on port 62275
+1609268024041	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609268097165	Marionette	INFO	Stopped listening on port 62275
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609268603547	geckodriver	INFO	Listening on 127.0.0.1:62370
+1609268606565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofiled2dEGi"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609268610442	Marionette	INFO	Listening on port 62378
+1609268610975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609268685839	Marionette	INFO	Stopped listening on port 62378
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609268876743	geckodriver	INFO	Listening on 127.0.0.1:62526
+1609268879766	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileMSkfF4"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609268883491	Marionette	INFO	Listening on port 62534
+1609268883661	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: chrome://marionette/content/proxy.js, line 283: NS_ERROR_NOT_INITIALIZED
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609268960257	Marionette	INFO	Stopped listening on port 62534
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609269132788	geckodriver	INFO	Listening on 127.0.0.1:62624
+1609269135783	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofile2czW1z"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609269139777	Marionette	INFO	Listening on port 62632
+1609269140171	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609269222920	Marionette	INFO	Stopped listening on port 62632
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609269975199	geckodriver	INFO	Listening on 127.0.0.1:62763
+1609269978197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofilehatUSo"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609269981863	Marionette	INFO	Listening on port 62771
+1609269982069	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609270073079	Marionette	INFO	Stopped listening on port 62771
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1609270233804	geckodriver	INFO	Listening on 127.0.0.1:62848
+1609270236814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileiz5G8e"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609270240281	Marionette	INFO	Listening on port 62856
+1609270240680	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1609270330734	Marionette	INFO	Stopped listening on port 62856
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610731863085	geckodriver	INFO	Listening on 127.0.0.1:54712
+1610731866195	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileBFTDdl"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 1204, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+[Parent 1204, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610731903737	Marionette	INFO	Listening on port 54720
+1610731904633	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+1610731997732	Marionette	INFO	Stopped listening on port 54720
+[Parent 1204, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1610732000453	geckodriver	INFO	Listening on 127.0.0.1:54832
+1610732003399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DELL\\AppData\\Local\\Temp\\rust_mozprofileVEoIP5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSetDamageRegionKHR'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1610732008070	Marionette	INFO	Listening on port 54840
+1610732008484	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript warning: https://gobstoredev.firebaseapp.com/assets/js/modules/inventory.module.js, line 28: unreachable code after return statement
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://gobstoredev.firebaseapp.com/__/firebase/7.10.0/firebase-analytics.js, line 1: FirebaseError: Installations: Missing App configuration value: "appId" (installations/missing-app-config-values).
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1610732103773	Marionette	INFO	Stopped listening on port 54840
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
